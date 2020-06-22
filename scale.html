@@ -4,6 +4,13 @@
 <title>Scale</title>
 
 <style>
+	.container {
+		width: 800px;
+		border: 2px grey solid;
+		padding: 10px;
+		margin-bottom: 50px;
+	}
+
 	.scaled input[type="radio"],
 	.scaled input[type="checkbox"]{
   		-ms-transform: scale(1.5); /* IE 9 */
@@ -20,7 +27,7 @@
 </head>
 <body>
 
-<form>
+<div class='container'>
 	<div class='scaled'>
 		<h2>Scaled</h2>
 		<input type="radio" name="radiogroup" id="radio-1" checked>
@@ -55,7 +62,7 @@
 	    
 	    <input type="checkbox" id="auto2" name="auto2" value="run" checked>
 		<label for="auto2">Autorun</label>
-</form>
+</div>
 
 </body>
 </html>
