@@ -88,7 +88,7 @@
 	<script type="text/javascript">
 
 		const CLASS_NAME = 'drag-scroll-adjustment'		
-		var edgeSize = 100;
+		var edgeSize = 50;
 		var timer = null;
 
 
@@ -256,7 +256,7 @@
 				// gets the viewport edge. As such, we'll calculate the percentage that
 				// the user has made it "through the edge" when calculating the delta.
 				// Then, that use that percentage to back-off from the "max" step value.
-				var maxStep = 50;
+				var maxStep = 20;
 
 				// Should we scroll left?
 				if ( isInLeftEdge && canScrollLeft ) {
