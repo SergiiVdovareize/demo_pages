@@ -96,6 +96,7 @@
 		// const dr = document.getElementById('left')
 		// console.log(dr)
 		window.addEventListener( "dragover", handleMousemove, false );
+		window.addEventListener( "dragleave", handleMouseleave, false );
 		// document.addEventListener("dragenter", function(event) {
 		//   // highlight potential drop target when the draggable element enters it
 		//   console.log(event.target)
@@ -106,6 +107,10 @@
 
 		// --------------------------------------------------------------------------- //
 		// --------------------------------------------------------------------------- //
+		
+		function handleMouseleave() {
+			clearTimeout(timer);
+		}
 
 		// I adjust the window scrolling in response to the given mousemove event.
 		function handleMousemove( event ) {
