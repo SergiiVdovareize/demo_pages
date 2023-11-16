@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<style>
+			body {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				font-size: 20px;
+			}
+			div.wrapper {
+				border: 1px black solid;
+				padding: 20px;
+				margin: 20px;
+			}
+
+			.hidden {
+				display: none;
+			}
+
+			.ifrValue {
+				padding: 2px 8px;
+				border-radius: 3px;
+				color: white;
+			}
+
+			#ifrUndefined {
+				background-color: gray;
+			}
+
+			#ifrTrue {
+				background-color: red;
+			}
+
+			#ifrFalse {
+				background-color: green;
+			}
+		</style>
+
+		<script>
+			window.onload = () => {
+				
+				const isInIframe = () => {
+					try {
+						return window.self !== window.top;
+					} catch (e) {
+						return true;
+					}
+				};
+
+				document.getElementById('ifrUndefined').classList.add('hidden')
+				if (isInIframe()) {
+					document.getElementById('ifrTrue').classList.remove('hidden')
+					document.getElementById('ifrFalse').classList.add('hidden')
+				} else {
+					document.getElementById('ifrFalse').classList.remove('hidden')
+					document.getElementById('ifrTrue').classList.add('hidden')
+				}
+			}
+		</script>
+	</head>
+   	<body>
+		<div class="content">
+			<span>is inside iframe? - </span>
+			<span id="ifrUndefined" class="ifrValue">undefined</span>
+			<span id="ifrTrue" class="hidden ifrValue">TRUE</span>
+			<span id="ifrFalse" class="hidden ifrValue">FALSE</span>
+		</div>
+   	</body>
+</html>
