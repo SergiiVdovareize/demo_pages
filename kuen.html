@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<style>
+			body {
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				font-size: 36px;
+			}
+
+			.kuenito {
+    			display: grid;
+				grid-gap: 20px;
+				grid-template-columns: 200px 140px;
+				background-color: #fff;
+				color: #444;
+			}
+
+			.kun {
+				background-color: #2b2b2b;
+				color: #f5f5f5;
+				border-radius: 3px;
+				padding: 50px;
+			}
+
+			.bk {
+				grid-column: 1;
+				grid-row: span 2;
+			}
+
+			.bu {
+				grid-column: 2;
+				grid-row: 1 / 2;
+			}
+
+			.bn {
+				grid-column: 2;
+				grid-row: 2;
+			}
+		</style>
+	</head>
+   	<body>
+		<div class="kuenito">
+			<div class="kun bk">K</div>
+			<div class="kun bu">U</div>
+			<div class="kun bn">N</div>
+		</div>
+   	</body>
+</html>
