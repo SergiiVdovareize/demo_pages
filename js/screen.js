@@ -23,11 +23,11 @@
     console.log('isExtended', isExtended)
 
     try {
-      window.screen.onchange = event => {
+      window.screen.addEventListener('change', event => {
         const isExtended = event.currentTarget.isExtended
         setLabel(isExtended)
         console.log('Screen change detected. isExtended -', isExtended)
-      }
+      })
     } catch (error) {
       console.error('screen detection failed', error);
     }
