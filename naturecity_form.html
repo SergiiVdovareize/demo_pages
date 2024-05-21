@@ -1,0 +1,3203 @@
+<html lang="en" style="overflow: hidden">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Contact Form</title>
+    <meta content="Contact Form" name="title" />
+    <meta content="" name="description" />
+    <meta content="noindex, nofollow" name="robots" />
+    <link
+      rel="canonical"
+      href="http://localhost:59568/plugins/view?id=38287681"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://public.powrcdn.com/latest/assets/packs/style_packs/views-19d8fa8f73a162f3e39b-886ecb2.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://public.powrcdn.com/latest/assets/packs/apps/views/formBuilder-9931523beeb633397c17-886ecb2.css"
+    />
+  </head>
+
+  <body class="" id="apps/views-show" cz-shortcut-listen="true">
+    <div id="dynamicStyle">
+      <style>
+        #form-watermark-edit-on-click {
+          display: none !important;
+        }
+        #spamDetection {
+          display: none !important;
+        }
+        
+        .formBuilder {
+          border-color: #e8e8e8;
+          border-radius: 20px;
+          border-width: 0px;
+          border-style: solid;
+          background: #ffffff;
+        }
+
+        .formBuilder h1,
+        .formBuilder h2,
+        .formBuilder h3,
+        .formBuilder h4,
+        .formBuilder h5,
+        .formBuilder h6,
+        .formBuilder p,
+        .file-upload__label {
+          color: #2d2d2d;
+          font-family: Lora;
+          font-size: 16px;
+        }
+
+        .formBuilder {
+          font-family: Lora;
+          color: #2d2d2d;
+          font-weight: normal;
+          font-style: normal;
+          border-width: 0px;
+          max-width: 530px;
+        }
+        .formBuilder-edit-on-click-wrap {
+          max-height: 90%;
+          overflow: auto;
+        }
+        .formBuilder-edit-on-click-wrap .formBuilder {
+          max-height: unset;
+          overflow-y: unset;
+          top: unset;
+        }
+
+        .formBuilder .formbuilder-toggle {
+          max-width: 530px;
+          padding-left: 16%;
+          padding-right: 16%;
+          padding-top: 42px;
+
+          padding-bottom: 34px;
+        }
+
+        .header-image {
+          padding: 8px;
+        }
+
+        .header-image__container {
+          height: 220px;
+          background-image: url();
+          background-position-y: 100%;
+          background-position-x: 100%;
+        }
+
+        .header-image.header-image--left,
+        .header-image.header-image--right {
+          width: 400px;
+        }
+
+        .header-image.header-image--left .header-image__container,
+        .header-image.header-image--right .header-image__container {
+          height: 100%;
+        }
+
+        .header-image.header-image--top .header-image__container {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+
+        .header-image.header-image--right .header-image__container {
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+
+        .header-image.header-image--left .header-image__container {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+
+        .formBuilder .progress-bar {
+          background-color: rgba(46, 125, 50, 1);
+        }
+
+        .formBuilder .progress {
+          border: 1px solid rgba(46, 125, 50, 1);
+          background-color: #ffffff;
+        }
+
+        .formElementsModule
+          .multi-step_progress-bar-container
+          .progress-bar-percentage {
+          font-family: Lora;
+          color: #2d2d2d;
+          font-size: 0.75rem;
+        }
+
+        .formBuilder .timePicker {
+          color: #2d2d2d;
+        }
+
+        .ui-widget-header,
+        .ui-widget-header a,
+        .ui-datepicker-next:hover,
+        .ui-datepicker-prev:hover {
+          color: #333 !important;
+        }
+
+        .formBuilder h3,
+        .formBuilder label,
+        .formBuilder legend,
+        .formBuilder .submitButton,
+        .formBackButton,
+        .formBuilder input,
+        .formBuilder textarea,
+        .formBuilder .resultsButton {
+          font-size: 16px;
+        }
+
+        .styledText p {
+          font-family: Lora;
+          color: #2d2d2d;
+          font-size: 16px;
+        }
+
+        .formBuilder .submitButton,
+        .formBackButton,
+        .formBuilder .resultsButton,
+        .fileUploadParent .uploadBtn {
+          font-family: Lora;
+          font-size: 16px;
+          font-style: bold;
+          font-weight: bold;
+          color: #ffffff;
+          border: none;
+          border-radius: 4px;
+          -moz-border-radius: 4px;
+          -webkit-border-radius: 4px;
+
+          padding: 12px 50px;
+        }
+
+        .file-upload__label {
+          font-weight: normal;
+          font-style: normal;
+        }
+
+        .formBuilder .submitButton {
+          background: rgba(46, 125, 50, 1);
+        }
+
+        .formBuilder .submitButton {
+        }
+
+        .formBuilder .submitButton:hover {
+          background-color: rgba(46, 125, 50, 0.95);
+        }
+
+        .fileUploadParent .uploadBtn,
+        .fileUploadParent .uploadBtn:hover,
+        .formBackButton,
+        .formBackButton:hover {
+          color: rgba(46, 125, 50, 1);
+          background-color: transparent;
+          border: 2px solid rgba(46, 125, 50, 1);
+        }
+
+        .fileUploadParent .uploadBtn:hover,
+        .formBackButton:hover {
+          background-color: rgba(46, 125, 50, 0.05);
+        }
+
+        .back-button-icon,
+        .next-button-icon {
+          font-size: 23px !important;
+        }
+
+        .formBuilder .madeWithPowr {
+          border: 1px solid #2d2d2d;
+        }
+
+        .formBuilder .powrMark a {
+          color: #2d2d2d;
+        }
+
+        .formBuilder textarea,
+        .formBuilder input[type="text"],
+        .formBuilder input[type="number"],
+        .formBuilder input[type="email"],
+        .formBuilder input[type="tel"],
+        .formBuilder input[type="url"],
+        .formBuilder .country-select,
+        #appView .modernize-inputs .powr-signature .powr-signature__canvas {
+          font-size: 16px;
+          font-family: Lora;
+          border-radius: 6px;
+        }
+
+        .formBuilder hr {
+          border-color: rgba(45, 45, 45, 0.2);
+        }
+
+        .formBuilder textarea::-webkit-input-placeholder {
+          color: #888888;
+        }
+
+        .formBuilder textarea:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: #888888;
+        }
+
+        .formBuilder textarea::-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: #888888;
+        }
+
+        .formBuilder textarea:-ms-input-placeholder {
+          /* Internet Explorer 10+ */
+          color: #888888;
+        }
+
+        .formBuilder textarea[placeholder] {
+          color: #888888;
+        }
+
+        .formBuilder [placeholder] {
+          color: #888888;
+        }
+
+        .formBuilder *[placeholder] {
+          color: #888888;
+        }
+
+        .formBuilder input::-webkit-input-placeholder {
+          color: #888888;
+        }
+
+        .formBuilder input:-moz-placeholder {
+          /* Mozilla Firefox 4 to 18 */
+          color: #888888;
+        }
+
+        .formBuilder input::-moz-placeholder {
+          /* Mozilla Firefox 19+ */
+          color: #888888;
+        }
+
+        .formBuilder input:-ms-input-placeholder {
+          /* Internet Explorer 10+ */
+          color: #888888;
+        }
+
+        .formBuilder input[placeholder] {
+          color: #888888;
+        }
+
+        .formBuilder textarea {
+          background-color: #f4f4f4;
+          color: #2d2d2d !important;
+          font-weight: normal;
+          font-style: normal;
+          border-radius: 6px;
+        }
+
+        .formBuilder input[type="text"],
+        .formBuilder input[type="number"],
+        .formBuilder input[type="email"],
+        .formBuilder input[type="tel"],
+        .formBuilder input[type="url"],
+        .formBuilder .country-select {
+          background-color: #f4f4f4;
+          color: #2d2d2d !important;
+          font-weight: normal;
+          font-style: normal;
+        }
+
+        #appView .modernize-inputs-inline input::placeholder,
+        #appView textarea::placeholder {
+          color: #888888 !important;
+        }
+
+        #appView .modernize-inputs textarea,
+        #appView
+          .modernize-inputs
+          input:not([type="checkbox"]):not([type="radio"]),
+        #appView .modernize-inputs .form-control,
+        .powr-signature__canvas {
+          border-color: #2d2d2d;
+          border-width: 1px;
+          border-style: solid;
+        }
+
+        #appView .modernize-inputs textarea:focus,
+        #appView
+          .modernize-inputs
+          input:focus:not([type="checkbox"]):not([type="radio"]),
+        #appView .modernize-inputs .form-control:focus {
+          border-radius: 6px;
+          border-width: 1px;
+          border-color: #3b8cff;
+        }
+
+        #appView .modernize-inputs-line textarea,
+        #appView
+          .modernize-inputs-line
+          input:not([type="checkbox"]):not([type="radio"]),
+        #appView .modernize-inputs-line .form-control {
+          border-bottom-color: #2d2d2d;
+          border-bottom-width: 1px;
+          border-radius: 0;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          background-color: #ffffff;
+        }
+
+        #appView .modernize-inputs-line .form-group .for-input {
+          color: #888888;
+        }
+
+        #appView .modernize-inputs-line .form-group .for-input.label-up {
+          /* color: #2d2d2d; */
+          color: #2d2d2d;
+        }
+
+        #appView .formBuilder select:not(.country-select) {
+          color: #2d2d2d;
+          font-size: 16px;
+          font-family: Lora;
+          font-weight: normal;
+          font-style: normal;
+          border-radius: 6px;
+          border-color: #2d2d2d;
+          border-width: 1px;
+          background-color: #ffffff;
+        }
+
+        #appView
+          .modernize-inputs-line
+          .select:not(.value-selected)
+          .form-dropdown__current
+          .form-dropdown__value
+          p {
+          color: #888888;
+        }
+
+        #appView .formBuilder .modernize-inputs-block .gap-element--large {
+          height: 32px;
+        }
+
+        #appView .formBuilder .modernize-inputs-block .gap-element--small {
+          height: 22px;
+        }
+
+        #appView .formBuilder .modernize-inputs-line .gap-element--large {
+          height: 52px;
+        }
+
+        #appView .formBuilder .modernize-inputs-line .gap-element--small {
+          height: 38px;
+        }
+
+        #appView .formBuilder .modernize-inputs-inline .gap-element--large {
+          height: 60px;
+        }
+
+        #appView .formBuilder .modernize-inputs-inline .gap-element--small {
+          height: 40px;
+        }
+
+        #appView .formBuilder .modernize-inputs .gap-element:last-child {
+          height: 32px;
+        }
+
+        @media only screen and (max-width: 481px) {
+          #appView .formBuilder .modernize-inputs-line .col-sm-6.col-xs-12 {
+            margin-top: 20px;
+          }
+          #appView .formBuilder .modernize-inputs-line .col-xs-6.half {
+            margin-top: 20px;
+          }
+        }
+
+        .formBuilder .powr-mark-separator {
+          margin: 0;
+          border-color: rgba(45, 45, 45, 0.5);
+        }
+
+        .formBuilder .rating .ratingOptionItem p {
+          color: #2d2d2d;
+        }
+
+        .formBuilder .powrMark {
+          margin-top: 20px;
+          margin-bottom: 34px;
+        }
+
+        .formBuilder .addressLabel h3 {
+          color: #2d2d2d;
+          font-family: Lora;
+          font-size: 16px;
+        }
+
+        .formBuilder
+          .choice
+          input
+          + .choice-option__control--radio-button::before {
+          color: rgba(46, 125, 50, 1);
+        }
+
+        #appView
+          .formBuilder
+          .choice
+          .choice-option__input
+          .choice-option__control {
+          border-color: #2d2d2d;
+        }
+
+        #appView
+          .formBuilder
+          .choice
+          input:checked
+          + .choice-option__control--radio-button {
+          border-color: rgba(46, 125, 50, 1);
+        }
+
+        #appView
+          .formBuilder
+          .choice
+          input:checked
+          + .choice-option__control--checkbox {
+          border-color: rgba(46, 125, 50, 1);
+
+          background-color: rgba(46, 125, 50, 1);
+        }
+
+        .formBuilder
+          .choice
+          input:checked
+          + .choice-option__control--checkbox
+          svg
+          path {
+          stroke: #ffffff;
+        }
+
+        .formBuilder input[type="file"] {
+          font-size: 16px;
+          font-family: Lora;
+          color: #2d2d2d;
+        }
+
+        .formBuilder .header h2 {
+          text-align: center;
+          font-family: Lora;
+          color: #2d2d2d;
+          font-size: 28px;
+          font-weight: bold;
+          font-style: normal;
+          margin-top: 0;
+        }
+
+        .formbuilder .description,
+        .formBuilder .header h3,
+        .formBuilder .header p {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, "Fira Sans", "Droid Sans", "Helvetica Neue",
+            sans-serif;
+          color: #2d2d2d;
+          font-size: 16px !important;
+          font-weight: normal;
+          font-style: normal;
+          text-align: center;
+        }
+
+        .formbuilder .description,
+        .formBuilder .header h3 {
+          line-height: 16px !important;
+        }
+
+        .formBuilder .header p {
+          line-height: 24px !important;
+        }
+
+        .formBuilder input,
+        .formBuilder .radioOption,
+        .formBuilder .checkOption,
+        .formBuilder textarea,
+        .formBuilder .choice .choice-option__label {
+          font-family: Lora;
+          font-size: 16px !important;
+          font-weight: normal;
+          font-style: normal;
+        }
+
+        .formBuilder .message-header,
+        .formBuilder .payment-done-button,
+        .formBuilder .payment-link {
+          font-family: Lora;
+        }
+
+        #appView .formBuilder .radioImage .radioOption:hover,
+        .formBuilder .emojiOption:hover {
+          border-color: rgba(46, 125, 50, 0.5) !important;
+          border-radius: 4px;
+        }
+
+        #appView .formBuilder .radioImage .radioOption.checked,
+        .formBuilder .emojiOption.checked {
+          border-color: rgba(46, 125, 50, 1) !important;
+          border-radius: 4px;
+        }
+
+        #appView .formBuilder .intl-tel-input .country-list {
+          background-color: #f4f4f4;
+        }
+
+        #appView .formBuilder .intl-tel-input .country-list .country-name {
+          color: #2d2d2d;
+        }
+
+        .formBuilder .radioImage .radioOption {
+          font-size: 16px;
+          font-family: Lora;
+        }
+
+        .formBuilder .radioImage .radioOption .radio-image-price {
+          color: #2d2d2d;
+        }
+
+        #appView .formBuilder .radioImage .radioOption .imageCaption {
+          color: #2d2d2d;
+        }
+
+        .form-modal-floating-tab,
+        .form-modal-floating-button {
+          background-color: rgb(30, 136, 229);
+          color: rgb(255, 255, 255);
+          font-family: Lora;
+        }
+
+        .form-modal-floating-tab:hover,
+        .form-modal-floating-button:hover {
+          background-color: rgba(30, 136, 229, 0.9);
+        }
+
+        .form-dropdown {
+          font-size: 16px;
+          color: #2d2d2d;
+        }
+
+        .form-dropdown__current {
+          border-radius: 6px;
+          border-color: #2d2d2d;
+          border-width: 1px;
+          background-color: #f4f4f4;
+        }
+
+        p.form-dropdown__input-text {
+          background-color: #f4f4f4;
+          color: #2d2d2d;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-family: Lora;
+        }
+
+        #appView .modernize-inputs-line p.form-dropdown__input-text {
+          background-color: #ffffff;
+        }
+
+        #appView
+          .modernize-inputs-line
+          .form-dropdown__value:first-child
+          p.form-dropdown__input-text {
+          font-size: 16px;
+          color: #2d2d2d;
+          font-weight: normal;
+          font-style: normal;
+        }
+
+        #appView
+          .modernize-inputs-inline
+          .form-dropdown__value:first-child
+          p.form-dropdown__input-text {
+          color: #888888;
+        }
+
+        .form-dropdown__list {
+          border-radius: 6px;
+          border-color: #2d2d2d;
+          border-width: 1px;
+          background-color: #f4f4f4;
+        }
+
+        .form-dropdown .form-dropdown__option {
+          background-color: #f4f4f4;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          color: #2d2d2d;
+          font-family: Lora;
+        }
+
+        .form__element--min-height-zero {
+          min-height: 0px;
+        }
+      </style>
+    </div>
+
+    <div id="appView" class="">
+      <div
+        id="notification-container"
+        style="margin: 0 auto; max-width: 448px"
+      ></div>
+      <div
+        class="formBuilder formBuilder-v2 formElementsModule js-form-container enter_ani_none none"
+      >
+        <div
+          class="formbuilder__payments-submission-overlay js-payment-overlay hid"
+        >
+          <div class="formbuilder__payments-submission-wrapper">
+            <div class="formbuilder__payments-submission-wrapper-contents">
+              <h4 class="message-header margin-bottom-l">
+                Your submission has been received, but we're still awaiting
+                payment.
+              </h4>
+              <p>
+                <a
+                  href="#"
+                  onclick="(function() { document.querySelector('.formBuilder #submitButton').click(); return false; })(); return false;"
+                  class="payment-link"
+                >
+                  Click to reopen payment window
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hid js-afterSubmissionForm-toggle afterSubmissionContainer">
+          <div
+            class="afterSubmissionMessage pad-top-l pad-bottom-s pad-h-l js-afterSubmissionMessage free-user-wm-adjustment"
+            data-qa="afterSubmissionMessage"
+          >
+            <figure style="text-align: center" class="margin-bottom-l">
+              <img
+                class="formImage"
+                loading="lazy"
+                data-qa="afterSubmissionImage"
+                src="https://powr.s3-us-west-1.amazonaws.com/images/checkmark.png"
+                style="width: 20%"
+              />
+            </figure>
+            <div class="text-center margin-bottom-l">
+              <h4
+                style="font-size: 20px"
+                class="margin-bottom-l"
+                data-qa="successText"
+              >
+                <p>
+                  <span style="font-family: Lora"
+                    ><span style="font-size: 20px; line-height: 1.2"
+                      >Ми вже отримали Ваше повідомлення</span
+                    ></span
+                  >
+                </p>
+                <p>
+                  <span style="font-family: Lora"
+                    ><span style="font-size: 20px; line-height: 1.2"
+                      >і обовʼязково із Вами звʼяжемось.</span
+                    ></span
+                  >
+                </p>
+              </h4>
+            </div>
+            <div class="formResponses js-formResponses margin-bottom-l hid">
+              <div class="loadingResponses hid">Loading form responses...</div>
+              <div class="linkResponses js-linkResponses hid">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="centerBtn submitButton resultsButton js-resultsButton"
+                  data-qa="button-viewResults"
+                  >View Results</a
+                >
+              </div>
+              <div id="responseChart" class="hid" data-qa="responseChart"></div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="hid js-submissionLimitMessage-toggle submissionLimitContainer pad-xl"
+        >
+          <div class="submissionLimitMessage" data-qa="submissionLimitMessage">
+            <div class="text-center">
+              <div class="margin-bottom-l">
+                \u003cp\u003e\u003cstrong\u003e\u003cspan
+                style=\"font-size:20px\"\u003eThe submission limit has been
+                reached for this
+                form.\u003c/span\u003e\u003c/strong\u003e\u003c/p\u003e
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="js-formBuilder-toggle formbuilder-toggle">
+          <div class="header">
+            <div id="form-title-edit-on-click" class="position-relative">
+              <div class="form-title-edit-on-click"></div>
+              <h2 class="fitText formTitle" style="font-size: 28px">
+                Напишіть нам
+              </h2>
+            </div>
+          </div>
+
+          <form
+            class="realForm"
+            action="/app_form_responses"
+            accept-charset="UTF-8"
+            method="post"
+          >
+            <input name="utf8" type="hidden" value="✓" /><input
+              type="hidden"
+              name="authenticity_token"
+              value="qLzo6FJ-IY7VHv4PdeSV0-09gQsVFD4qRsIFEIDeS7qANwtyht7PZzzxbW05YGHvs3ZKhI6mhq_fpVbcTq2NgQ"
+            />
+            <input class="honeypot hid no-print" type="text" />
+            <div
+              class="dynamicElements modernize-inputs-line modernize-inputs-medium modernize-inputs visible"
+              data-qa="dynamicElements"
+              style=""
+            >
+              <div class="col-sm-12 clearfix form__element--min-height-zero">
+                <div
+                  id="0s1vnkf3_1716200899776"
+                  class="formElement form-group fadeMe text"
+                  data-qa="formElement-text"
+                >
+                  <div class="0s1vnkf3_1716200899776"></div>
+                  <label class="fitText for-input" style="font-size: 16px"
+                    >Імʼя</label
+                  >
+                  <input
+                    aria-describedby="0s1vnkf3_1716200899776_errors"
+                    class="form-control"
+                    value=""
+                    name="0s1vnkf3_1716200899776"
+                    placeholder="Імʼя"
+                    type="text"
+                    data-export-field=""
+                    title="Імʼя"
+                    data-max="250"
+                    data-limiting=""
+                  />
+                  <div class="lengthSummary fitText hid">
+                    <span class="lengthErrors lengthErrors hid">
+                      <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                    <span role="alert" class="currentLength"
+                      >0 out of 250 characters</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="gap-element gap-element--small js-edit-on-click-add-element"
+                data-idx="0s1vnkf3_1716200899776"
+              ></div>
+
+              <div class="col-sm-12 clearfix form__element--min-height-zero">
+                <div
+                  id="7wsvytbe_1716200899777"
+                  class="formElement form-group fadeMe text"
+                  data-qa="formElement-email"
+                >
+                  <div class="7wsvytbe_1716200899777"></div>
+                  <label class="fitText for-input" style="font-size: 16px"
+                    >Email</label
+                  >
+                  <input
+                    aria-describedby="7wsvytbe_1716200899777_errors"
+                    value=""
+                    class="form-control email"
+                    name="7wsvytbe_1716200899777"
+                    placeholder="Email"
+                    type="email"
+                    data-send-confirmation-email="false"
+                    data-subscribe="false"
+                    data-form-type="email"
+                    title="Email"
+                  />
+                </div>
+              </div>
+
+              <div
+                class="gap-element gap-element--small js-edit-on-click-add-element"
+                data-idx="7wsvytbe_1716200899777"
+              ></div>
+
+              <div class="col-sm-12 clearfix form__element--min-height-zero">
+                <div
+                  id="31644415_1716201078031"
+                  class="formElement form-group fadeMe text margin-bottom-s"
+                >
+                  <div class="31644415_1716201078031"></div>
+                </div>
+              </div>
+
+              <div
+                class="gap-element gap-element--small undefined js-edit-on-click-add-element"
+                data-idx="31644415_1716201078031"
+              ></div>
+
+              <div class="col-sm-12 clearfix form__element--min-height-zero">
+                <div
+                  id="a1l8rw0n_1716200899777"
+                  class="formElement form-group fadeMe textarea"
+                  data-qa="formElement-textarea"
+                >
+                  <div class="a1l8rw0n_1716200899777"></div>
+                  <label class="fitText for-input" style="font-size: 16px"
+                    >Повідомлення</label
+                  >
+                  <textarea
+                    aria-describedby="a1l8rw0n_1716200899777_errors"
+                    class="form-control"
+                    name="a1l8rw0n_1716200899777"
+                    placeholder=""
+                    data-max="250"
+                    data-limiting="false"
+                    style="height: 68px"
+                    data-export-field=""
+                    value=""
+                    title="Повідомлення"
+                    aria-label="Enter Text"
+                  ></textarea>
+                  <div class="lengthSummary fitText hid">
+                    <span class="lengthErrors lengthErrors hid">
+                      <i class="fas fa-exclamation-triangle"></i>
+                    </span>
+                    <span role="alert" class="currentLength"
+                      >0 out of 250 characters</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="gap-element gap-element--small js-edit-on-click-add-element"
+                data-idx="a1l8rw0n_1716200899777"
+              ></div>
+            </div>
+
+            <div id="invisibleCaptcha" class="hid" style="">
+              <div
+                class="grecaptcha-badge"
+                data-style="bottomright"
+                style="
+                  width: 256px;
+                  height: 60px;
+                  display: block;
+                  transition: right 0.3s ease 0s;
+                  position: fixed;
+                  bottom: 14px;
+                  right: -186px;
+                  box-shadow: gray 0px 0px 5px;
+                  border-radius: 2px;
+                  overflow: hidden;
+                "
+              >
+                <div class="grecaptcha-logo">
+                  <iframe
+                    title="reCAPTCHA"
+                    width="256"
+                    height="60"
+                    role="presentation"
+                    name="a-nnea8u8tm5qc"
+                    frameborder="0"
+                    scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                    src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LePIOQUAAAAAI6FQQxURqi6BudZQkYU3BKx771Z&amp;co=aHR0cDovL2xvY2FsaG9zdDo1OTU2OA..&amp;hl=en&amp;v=8k85QBI-qzxmenDv318AZH30&amp;size=invisible&amp;cb=c7zksgkrqz4a"
+                  ></iframe>
+                </div>
+                <div class="grecaptcha-error"></div>
+                <textarea
+                  id="g-recaptcha-response"
+                  name="g-recaptcha-response"
+                  class="g-recaptcha-response"
+                  style="
+                    width: 250px;
+                    height: 40px;
+                    border: 1px solid rgb(193, 193, 193);
+                    margin: 10px 25px;
+                    padding: 0px;
+                    resize: none;
+                    display: none;
+                  "
+                ></textarea>
+              </div>
+              <iframe style="display: none"></iframe>
+            </div>
+            <div class="form-group col-sm-12 buttonContainer">
+              <div
+                role="alert"
+                class="errors hid no-print margin-bottom-m"
+                id="validationErrors"
+              >
+                <i class="fas fa-exclamation-triangle margin-right-xs"></i
+                >Please fill in required fields.
+              </div>
+              <div
+                role="alert"
+                class="errors hid no-print margin-bottom-m"
+                id="braintreeErrors"
+              >
+                <i class="fas fa-exclamation-triangle margin-right-xs"></i
+                >Braintree doesn't recognize these keys.
+              </div>
+              <div
+                role="alert"
+                class="errors hid no-print margin-bottom-m"
+                id="alreadySubmittedErrors"
+              >
+                <i class="fas fa-exclamation-triangle margin-right-xs"></i>
+                You've already submitted a response
+              </div>
+              <div
+                role="alert"
+                class="errors hid no-print margin-bottom-m"
+                id="uploadErrors"
+              >
+                <i class="fas fa-exclamation-triangle margin-right-xs"></i>
+                Please wait for your uploads to finish.
+              </div>
+              <div
+                role="alert"
+                class="errors hid no-print margin-bottom-m"
+                id="noBusinessErrors"
+              >
+                <i class="fas fa-exclamation-triangle margin-right-xs"></i>
+                Payments have not been connected for this form. If you're
+                testing this form, you may need to refresh the page.
+              </div>
+              <div class="hid no-print margin-bottom-m" id="spamDetection">
+                <i class="fas fa-exclamation-triangle margin-right-xs"></i>
+                Whoa! This form has detected unusual activity, which might be
+                spam. Please contact
+                <a href="https://powr-support.zendesk.com/hc/en-us/requests/new"
+                  >support</a
+                >
+                for help if you continue to see this message.
+              </div>
+              <div
+                role="alert"
+                id="successAlert"
+                class="success hid fitText no-print"
+              >
+                <div
+                  role="alert"
+                  class="triggerPayment button button-primary hid"
+                >
+                  Continue to Payment <i class="fal fa-credit-card"></i>
+                </div>
+                <div class="madeWithPowr powrMark">
+                  This form was created with POWr.
+                  <a
+                    href="https://www.powr.io/plugins/form-builder/standalone?from=form"
+                    target="_blank"
+                    ><u>Create Your Own</u></a
+                  >
+                </div>
+              </div>
+
+              <div
+                class="buttonAndSummaryWrapper margin-h-nil"
+                data-qa="buttonAndSummaryWrapper"
+              >
+                <div
+                  id="form-submit-button-edit-on-click"
+                  class="position-relative"
+                >
+                  <div class="form-submit-button-edit-on-click"></div>
+
+                  <button
+                    class="fitText centerBtn submitButton ani_cta_none"
+                    id="submitButton"
+                    data-qa="button-submit"
+                    style="font-size: 16px"
+                  >
+                    <span style="font-size: 16px">Відправити</span>
+                  </button>
+                </div>
+              </div>
+              <div class="hide">
+                <input type="submit" id="hiddenSubmitButton" class="hid" />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div
+          id="form-watermark-edit-on-click"
+          class="clearfix position-relative"
+        >
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class="blog js-powrMark powrMark text-center">
+            <a
+              class="powrMarkLink js-watermark watermark-create-free"
+              href="https://www.powr.io?src=watermark_contactForm"
+              target="_blank"
+            >
+              <img
+                alt="POWR logo"
+                class="powrMark__logo-block"
+                loading="lazy"
+                src="https://www.powrcdn.com/images/svgs/logo/powr-logo.svg"
+              />
+              <span class="powrMark__text">
+                <u>Contact Form</u> - Create your own for free!
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="alternates usefulContentLink hid"></div>
+    </div>
+
+    <script id="formBuilderTemplateV2" type="text/html">
+        {{ if (m.locals.editOnClick && m.locals.displayMode == 'default') { }}
+          <div class="edit-on-click-toggle {{=(window.isShopifyEmbeddedApp() ? 'shopify-embedded-standalone' : '')}}">
+            <div class="edit-on-click-toggle__button js-edit-on-click-toggle__button margin-right-s {{=m.locals.editOnClickMode ? 'edit-on-click-toggle__button--active' : ''}}">Edit Mode</div>
+            <div class="edit-on-click-toggle__button js-edit-on-click-toggle__button margin-left-s {{=!m.locals.editOnClickMode ? 'edit-on-click-toggle__button--active' : ''}}">Preview Mode</div>
+          </div>
+        {{ } }}
+        <div id="notification-container" style="margin: 0 auto; max-width: 448px;"></div>
+        {{ if(m.formTriggerElementType=='fixed' && m.locals.displayMode=='floatingButton'){ }}
+            <figure class="js-trigger-modal-form fixed-element form-modal-floating-button">
+              <i class="img-responsive {{=window.getFaIcon(m.formTriggerIcon)}}"></i>
+            </figure>
+        {{ }else if(m.formTriggerElementType=='fixed' && m.locals.displayMode=='tab'){ }}
+          <figure class="js-trigger-modal-form fixed-element form-modal-floating-tab {{=m.formTriggerTabLocation}}">
+            <i class="js-form-modal-floating-tab-icon {{=window.getFaIcon(m.formTriggerIcon)}} margin-right-xs"></i>
+            {{ if(m.formTriggerText){ }}
+              <span class="js-form-modal-floating-tab-text form-modal-floating-tab__text margin-left-xs">{{= truncate(m.formTriggerText, 25)}}</span>
+            {{ } }}
+          </figure>
+        {{ }else{ }}
+          {{ if(m.locals.displayMode=='modalForm'){ }}
+            <div class="modal-form-wrapper">
+              <div class="modal-form-wrapper__overlay">
+          {{ } }}
+        {{ if (m.locals.editOnClick && m.locals.displayMode == 'modalForm') { }}
+          <div class="edit-on-click-toggle edit-on-click-toggle--display-on-click">
+            <div class="edit-on-click-toggle__button js-edit-on-click-toggle__button margin-right-s {{=m.locals.editOnClickMode ? 'edit-on-click-toggle__button--active' : ''}}">Edit Mode</div>
+            <div class="edit-on-click-toggle__button js-edit-on-click-toggle__button margin-left-s {{=!m.locals.editOnClickMode ? 'edit-on-click-toggle__button--active' : ''}}">Preview Mode</div>
+          </div>
+          <div class="formBuilder-edit-on-click-wrap">
+        {{ } }}
+            <div class="formBuilder formBuilder-v2 formElementsModule js-form-container {{=m.labelType}} enter_ani_{{=m.introAnimation}} {{=m.backgroundShadow}} {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'pad-nil-force' : ''}}">
+            {{ if(m.paymentRequired) { }}
+              <div id="checkout"></div>
+            {{ } }}
+            {{ if(m.locals.displayMode=='modalForm'){ }}
+              <div class="modal-form-close-area js-trigger-close trigger-close">
+                <i class="fal fa-times"></i>
+              </div>
+            {{ } }}
+            <div class="formbuilder__payments-submission-overlay js-payment-overlay hid">
+        <div class="formbuilder__payments-submission-wrapper">
+          <div class="formbuilder__payments-submission-wrapper-contents">
+              <h4 class="message-header margin-bottom-l">Your submission has been received, but we&#39;re still awaiting payment.</h4>
+                <p>
+                  <a
+                  href="#"
+                  onClick="(function() { document.querySelector('.formBuilder #submitButton').click(); return false; })(); return false;"
+                  class="payment-link"
+                >
+                    Click to reopen payment window
+                  </a>
+                </p>
+            </div>
+        </div>
+      </div>
+      <div class="formbuilder__payments-submission-overlay js-ipn-payment-overlay hid">
+        <div class="formbuilder__payments-submission-wrapper">
+          <div class="formbuilder__payments-submission-wrapper-contents">
+              <h4 class="message-header margin-bottom-l">Your submission has been received, but we&#39;re still awaiting payment.</h4>
+                <button class="button button-white-outline js-payment-done margin-bottom-s payment-done-button">
+                  Done with Payment
+                </button>
+                <p>
+                  <a
+                  href="#"
+                  onClick="(function() { document.querySelector('.formBuilder #submitButton').click(); return false; })(); return false;"
+                  class="payment-link"
+                >
+                    Click to reopen payment window
+                  </a>
+                </p>
+            </div>
+        </div>
+      </div>
+
+            <div class="{{=!m.locals.show_after_submission_message ? 'hid' : ''}} js-afterSubmissionForm-toggle afterSubmissionContainer">
+        <div class="afterSubmissionMessage pad-top-l pad-bottom-s pad-h-l js-afterSubmissionMessage {{=meta.premium_status === 'free' ? 'free-user-wm-adjustment' : ''}} "  data-qa="afterSubmissionMessage">
+          <figure style="{{=m.afterSubmissionImageAlign ? ("text-align:"+m.afterSubmissionImageAlign) : null}}" class="margin-bottom-l">
+            <img class="formImage" loading='lazy' data-qa="afterSubmissionImage" src="{{=m.afterSubmissionImage}}" style="{{=m.afterSubmissionImageSize ? ("width:"+m.afterSubmissionImageSize) : null }}">
+          </figure>
+          <div class="text-center margin-bottom-l">
+            <h4 style="font-size: 20px" class="margin-bottom-l" data-qa="successText">{{=m.successText}}</h4>
+            {{ if (m.submissionFrequency === 'multiple') { }}
+            <button class="btn fitText centerBtn submitButton js-submit-again" data-qa="button-resubmit">
+              {{=m.resubmitButtonText}}
+            </button>
+            {{ } }}
+          </div>
+          <div class="formResponses js-formResponses margin-bottom-l {{= m.locals.show_after_submission_message && m.afterSubmission === 'responses' ? '' : 'hid'}}">
+            <div class="loadingResponses hid">Loading form responses...</div>
+            <div class="linkResponses  js-linkResponses {{= m.locals.show_after_submission_message && m.afterSubmission === 'responses' ? '' : 'hid'}}">
+              <a href="#" target="_blank" class="centerBtn submitButton resultsButton js-resultsButton" data-qa="button-viewResults">View Results</a>
+            </div>
+            <div id="responseChart" class="hid" data-qa="responseChart">
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+            <div class="{{=!!m.locals.show_submission_limit_message ? '' : 'hid'}} js-submissionLimitMessage-toggle submissionLimitContainer pad-xl">
+        <div class="submissionLimitMessage" data-qa="submissionLimitMessage">
+          <div class="text-center">
+            <div class="margin-bottom-l">{{=m.submissions.limitReachedMessage}}</div>
+          </div>
+        </div>
+      </div>
+
+            {{ if (!(window.META.is_standalone && window.APP_VIEW.previewMode == 'mobile' || isMobile())) { }}
+              {{ if ((m.headerBackgroundImage && m.formBuilderLayout === 'topImageLayout') || (window.isWebview() && m.formBuilderLayout !== 'noImageLayout')) { }}
+                <div class="header-image header-image--top js-form-header-image">
+                  <div id="form-header-image-edit-on-click" class="header-image__container">
+                    <div class="form-header-image-edit-on-click"></div>
+                  </div>
+                </div>
+                <div class="js-formBuilder-toggle formbuilder-toggle {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'hid' : ''}}">
+        {{ if (m.title || m.description) { }}
+          <div class="header">
+            {{ if (m.title) { }}
+              <div id="form-title-edit-on-click" class="position-relative">
+                <div class="form-title-edit-on-click"></div>
+                <h2 class="fitText formTitle">{{= m.title}}</h2>
+              </div>
+            {{ } }}
+            {{ if (m.description) { }}
+              <div id="form-description-edit-on-click" class="position-relative">
+                <div class="form-description-edit-on-click"></div>
+                <h3 class="description fitText" tabindex="0">{{= m.description}}</h3>
+              </div>
+            {{ } }}
+          </div>
+        {{ } }}
+        <form class="realForm" action="/app_form_responses" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="92y2jPPKlWljfemnkrMcjpcV2S-C3hHbYiF5u3_BEdTf51UWJ2p7gIqSesXeN-iyyV4SoBlsqV77Rip3sbLX7w" />
+        <input class="honeypot hid no-print" type="text">
+        <div class="dynamicElements modernize-inputs-{{=m.fieldStyle}} modernize-inputs-{{=m.inputPaddingSize}} modernize-inputs" data-qa="dynamicElements"></div>
+
+        {{ if(m.captchaRequired && !m.paymentRequired){ }}
+        <div class="recaptchaContent">
+          <div class="form-group captchaImgWrapper"></div>
+        </div>
+        {{ } }}
+        <div id="invisibleCaptcha" class="hid"></div>
+        <div class="form-group col-sm-12 buttonContainer">
+
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="validationErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Please fill in required fields.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="braintreeErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Braintree doesn't recognize these keys.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="alreadySubmittedErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> You've already submitted a response</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="uploadErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Please wait for your uploads to finish.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="noBusinessErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Payments have not been connected for this form. If you're testing this form, you may need to refresh the page.</div>
+          <div class="hid no-print margin-bottom-m" id="spamDetection"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Whoa! This form has detected unusual activity, which might be spam. Please contact <a href="https://powr-support.zendesk.com/hc/en-us/requests/new">support</a> for help if you continue to see this message.</div>
+          <div role="alert" id="successAlert" class="success hid fitText no-print">
+            <div role="alert" class="triggerPayment button button-primary hid">Continue to Payment <i class="fal fa-credit-card"></i></div>
+            <div class="madeWithPowr powrMark">
+              This form was created with POWr.
+              <a href='https://www.powr.io/plugins/form-builder/standalone?from=form' target="_blank"><u>Create Your Own</u></a>
+            </div>
+          </div>
+          {{ if (m.multistepForm && m.displayProgress) { }}
+            <div id="form-progress-bar-edit-on-click" class="form-progress-bar" data-qa="form_progress-bar">
+              <div class="form-progress-bar-edit-on-click"></div>
+              <div class='progress-bar-line'>
+      <div class='progressBarBox'>
+      <div class='progress'>
+      <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar progress-bar-success' role='progressbar' style='width: 40%'>
+      <span class='progressText'>
+      <span class='progressTextInProgress hid'></span>
+      <span class='progressTextSuccess hid'>
+      <i class='fal fa-check-circle'></i>
+      </span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+              <div class="progress-bar-percentage">0%</div>
+            </div>
+          {{ } }}
+          <div class="buttonAndSummaryWrapper margin-h-nil" data-qa="buttonAndSummaryWrapper">
+            <div id="form-submit-button-edit-on-click" class="position-relative">
+              <div class="form-submit-button-edit-on-click"></div>
+              {{ if (m.multistepForm) { }}
+                {{ const firstStep = m.locals.currentStepIdx === 0; }}
+                <div class="buttonWrapper flex-row justify-content-between">
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js formBackButton {{=!firstStep ? 'flex-1' : ''}}" style="display: none;" id="formBackButton" data-qa="button-formBack">
+                    {{ if (m.backButtonIcon !== 'none') { }}
+                      <div class="back-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.backButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                    <span>{{=m.backButtonText}}</span>
+                  </button>
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js submitButton {{=firstStep ? m.buttonAlign : 'flex-1'}}" id="submitButton" data-qa="button-submit">
+                    <span>{{=m.nextButtonText}}</span>
+                    {{ if (m.nextButtonIcon !== 'none') { }}
+                      <div class="next-button-icon js-next-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.nextButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                  </button>
+                </div>
+              {{ } else { }}
+                <button class="fitText {{=m.buttonAlign}} submitButton ani_cta_{{=m.buttonAnimation}}" id="submitButton" data-qa="button-submit">
+                  <span>{{=m.buttonText}}</span>
+                </button>
+              {{ } }}
+            </div>
+          </div>
+          <div class="hide">
+            <input type="submit" id="hiddenSubmitButton" class="hid">
+          </div>
+        </div>
+      </form>
+
+        {{ if (m.printable) { }}
+          <div class='buttonContainer text-center'><i class='fal fa-print printer'></i></div>
+        {{ } }}
+
+      </div>
+
+      {{ if ((!m.removePowrLogo || m.adminShowPowrMark) && !m.locals.show_after_submission_message && !m.locals.show_submission_limit_message) { }}
+        <div id="form-watermark-edit-on-click" class="clearfix position-relative">
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class='blog js-powrMark powrMark text-center'>
+      <a class='powrMarkLink js-watermark watermark-create-free' href='https://www.powr.io?src=watermark_contactForm' target='_blank'>
+      <img alt='POWR logo' class='powrMark__logo-block' loading='lazy' src='https://www.powrcdn.com/images/svgs/logo/powr-logo.svg'>
+      <span class='powrMark__text'>
+      <u>Contact Form</u> - Create your own for free!
+      </span>
+      </a>
+      </div>
+
+        </div>
+      {{ } }}
+
+              {{ } else if (m.headerBackgroundImage && m.formBuilderLayout === 'leftImageLayout') { }}
+                <div class="flex-row js-form-header-image">
+                  <div class="header-image header-image--left">
+                    <div id="form-header-image-edit-on-click" class="header-image__container">
+                      <div class="form-header-image-edit-on-click"></div>
+                    </div>
+                  </div>
+                  <div class="flex-1">
+                    <div class="js-formBuilder-toggle formbuilder-toggle {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'hid' : ''}}">
+        {{ if (m.title || m.description) { }}
+          <div class="header">
+            {{ if (m.title) { }}
+              <div id="form-title-edit-on-click" class="position-relative">
+                <div class="form-title-edit-on-click"></div>
+                <h2 class="fitText formTitle">{{= m.title}}</h2>
+              </div>
+            {{ } }}
+            {{ if (m.description) { }}
+              <div id="form-description-edit-on-click" class="position-relative">
+                <div class="form-description-edit-on-click"></div>
+                <h3 class="description fitText" tabindex="0">{{= m.description}}</h3>
+              </div>
+            {{ } }}
+          </div>
+        {{ } }}
+        <form class="realForm" action="/app_form_responses" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="kRPVMkPV9fqrnbke-o2QO2Hsa5fsT5iu6ZEY7Z7wD6K5mDaol3UbE0JyKny2CWQHP6egGHf9ICtw9kshUIPJmQ" />
+        <input class="honeypot hid no-print" type="text">
+        <div class="dynamicElements modernize-inputs-{{=m.fieldStyle}} modernize-inputs-{{=m.inputPaddingSize}} modernize-inputs" data-qa="dynamicElements"></div>
+
+        {{ if(m.captchaRequired && !m.paymentRequired){ }}
+        <div class="recaptchaContent">
+          <div class="form-group captchaImgWrapper"></div>
+        </div>
+        {{ } }}
+        <div id="invisibleCaptcha" class="hid"></div>
+        <div class="form-group col-sm-12 buttonContainer">
+
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="validationErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Please fill in required fields.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="braintreeErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Braintree doesn't recognize these keys.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="alreadySubmittedErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> You've already submitted a response</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="uploadErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Please wait for your uploads to finish.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="noBusinessErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Payments have not been connected for this form. If you're testing this form, you may need to refresh the page.</div>
+          <div class="hid no-print margin-bottom-m" id="spamDetection"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Whoa! This form has detected unusual activity, which might be spam. Please contact <a href="https://powr-support.zendesk.com/hc/en-us/requests/new">support</a> for help if you continue to see this message.</div>
+          <div role="alert" id="successAlert" class="success hid fitText no-print">
+            <div role="alert" class="triggerPayment button button-primary hid">Continue to Payment <i class="fal fa-credit-card"></i></div>
+            <div class="madeWithPowr powrMark">
+              This form was created with POWr.
+              <a href='https://www.powr.io/plugins/form-builder/standalone?from=form' target="_blank"><u>Create Your Own</u></a>
+            </div>
+          </div>
+          {{ if (m.multistepForm && m.displayProgress) { }}
+            <div id="form-progress-bar-edit-on-click" class="form-progress-bar" data-qa="form_progress-bar">
+              <div class="form-progress-bar-edit-on-click"></div>
+              <div class='progress-bar-line'>
+      <div class='progressBarBox'>
+      <div class='progress'>
+      <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar progress-bar-success' role='progressbar' style='width: 40%'>
+      <span class='progressText'>
+      <span class='progressTextInProgress hid'></span>
+      <span class='progressTextSuccess hid'>
+      <i class='fal fa-check-circle'></i>
+      </span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+              <div class="progress-bar-percentage">0%</div>
+            </div>
+          {{ } }}
+          <div class="buttonAndSummaryWrapper margin-h-nil" data-qa="buttonAndSummaryWrapper">
+            <div id="form-submit-button-edit-on-click" class="position-relative">
+              <div class="form-submit-button-edit-on-click"></div>
+              {{ if (m.multistepForm) { }}
+                {{ const firstStep = m.locals.currentStepIdx === 0; }}
+                <div class="buttonWrapper flex-row justify-content-between">
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js formBackButton {{=!firstStep ? 'flex-1' : ''}}" style="display: none;" id="formBackButton" data-qa="button-formBack">
+                    {{ if (m.backButtonIcon !== 'none') { }}
+                      <div class="back-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.backButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                    <span>{{=m.backButtonText}}</span>
+                  </button>
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js submitButton {{=firstStep ? m.buttonAlign : 'flex-1'}}" id="submitButton" data-qa="button-submit">
+                    <span>{{=m.nextButtonText}}</span>
+                    {{ if (m.nextButtonIcon !== 'none') { }}
+                      <div class="next-button-icon js-next-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.nextButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                  </button>
+                </div>
+              {{ } else { }}
+                <button class="fitText {{=m.buttonAlign}} submitButton ani_cta_{{=m.buttonAnimation}}" id="submitButton" data-qa="button-submit">
+                  <span>{{=m.buttonText}}</span>
+                </button>
+              {{ } }}
+            </div>
+          </div>
+          <div class="hide">
+            <input type="submit" id="hiddenSubmitButton" class="hid">
+          </div>
+        </div>
+      </form>
+
+        {{ if (m.printable) { }}
+          <div class='buttonContainer text-center'><i class='fal fa-print printer'></i></div>
+        {{ } }}
+
+      </div>
+
+      {{ if ((!m.removePowrLogo || m.adminShowPowrMark) && !m.locals.show_after_submission_message && !m.locals.show_submission_limit_message) { }}
+        <div id="form-watermark-edit-on-click" class="clearfix position-relative">
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class='blog js-powrMark powrMark text-center'>
+      <a class='powrMarkLink js-watermark watermark-create-free' href='https://www.powr.io?src=watermark_contactForm' target='_blank'>
+      <img alt='POWR logo' class='powrMark__logo-block' loading='lazy' src='https://www.powrcdn.com/images/svgs/logo/powr-logo.svg'>
+      <span class='powrMark__text'>
+      <u>Contact Form</u> - Create your own for free!
+      </span>
+      </a>
+      </div>
+
+        </div>
+      {{ } }}
+
+                  </div>
+                </div>
+              {{ } else if (m.headerBackgroundImage && m.formBuilderLayout === 'rightImageLayout') { }}
+                <div class="flex-row js-form-header-image">
+                  <div class="flex-1">
+                    <div class="js-formBuilder-toggle formbuilder-toggle {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'hid' : ''}}">
+        {{ if (m.title || m.description) { }}
+          <div class="header">
+            {{ if (m.title) { }}
+              <div id="form-title-edit-on-click" class="position-relative">
+                <div class="form-title-edit-on-click"></div>
+                <h2 class="fitText formTitle">{{= m.title}}</h2>
+              </div>
+            {{ } }}
+            {{ if (m.description) { }}
+              <div id="form-description-edit-on-click" class="position-relative">
+                <div class="form-description-edit-on-click"></div>
+                <h3 class="description fitText" tabindex="0">{{= m.description}}</h3>
+              </div>
+            {{ } }}
+          </div>
+        {{ } }}
+        <form class="realForm" action="/app_form_responses" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OqHkDIrdW_S2nqJR-_wtcJNkGnraR6O3olu9ga6yn14SKgeWXn21HV9xMTO3eNlMzS_R9UH1GzI7PO5NYMFZZQ" />
+        <input class="honeypot hid no-print" type="text">
+        <div class="dynamicElements modernize-inputs-{{=m.fieldStyle}} modernize-inputs-{{=m.inputPaddingSize}} modernize-inputs" data-qa="dynamicElements"></div>
+
+        {{ if(m.captchaRequired && !m.paymentRequired){ }}
+        <div class="recaptchaContent">
+          <div class="form-group captchaImgWrapper"></div>
+        </div>
+        {{ } }}
+        <div id="invisibleCaptcha" class="hid"></div>
+        <div class="form-group col-sm-12 buttonContainer">
+
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="validationErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Please fill in required fields.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="braintreeErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Braintree doesn't recognize these keys.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="alreadySubmittedErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> You've already submitted a response</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="uploadErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Please wait for your uploads to finish.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="noBusinessErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Payments have not been connected for this form. If you're testing this form, you may need to refresh the page.</div>
+          <div class="hid no-print margin-bottom-m" id="spamDetection"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Whoa! This form has detected unusual activity, which might be spam. Please contact <a href="https://powr-support.zendesk.com/hc/en-us/requests/new">support</a> for help if you continue to see this message.</div>
+          <div role="alert" id="successAlert" class="success hid fitText no-print">
+            <div role="alert" class="triggerPayment button button-primary hid">Continue to Payment <i class="fal fa-credit-card"></i></div>
+            <div class="madeWithPowr powrMark">
+              This form was created with POWr.
+              <a href='https://www.powr.io/plugins/form-builder/standalone?from=form' target="_blank"><u>Create Your Own</u></a>
+            </div>
+          </div>
+          {{ if (m.multistepForm && m.displayProgress) { }}
+            <div id="form-progress-bar-edit-on-click" class="form-progress-bar" data-qa="form_progress-bar">
+              <div class="form-progress-bar-edit-on-click"></div>
+              <div class='progress-bar-line'>
+      <div class='progressBarBox'>
+      <div class='progress'>
+      <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar progress-bar-success' role='progressbar' style='width: 40%'>
+      <span class='progressText'>
+      <span class='progressTextInProgress hid'></span>
+      <span class='progressTextSuccess hid'>
+      <i class='fal fa-check-circle'></i>
+      </span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+              <div class="progress-bar-percentage">0%</div>
+            </div>
+          {{ } }}
+          <div class="buttonAndSummaryWrapper margin-h-nil" data-qa="buttonAndSummaryWrapper">
+            <div id="form-submit-button-edit-on-click" class="position-relative">
+              <div class="form-submit-button-edit-on-click"></div>
+              {{ if (m.multistepForm) { }}
+                {{ const firstStep = m.locals.currentStepIdx === 0; }}
+                <div class="buttonWrapper flex-row justify-content-between">
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js formBackButton {{=!firstStep ? 'flex-1' : ''}}" style="display: none;" id="formBackButton" data-qa="button-formBack">
+                    {{ if (m.backButtonIcon !== 'none') { }}
+                      <div class="back-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.backButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                    <span>{{=m.backButtonText}}</span>
+                  </button>
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js submitButton {{=firstStep ? m.buttonAlign : 'flex-1'}}" id="submitButton" data-qa="button-submit">
+                    <span>{{=m.nextButtonText}}</span>
+                    {{ if (m.nextButtonIcon !== 'none') { }}
+                      <div class="next-button-icon js-next-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.nextButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                  </button>
+                </div>
+              {{ } else { }}
+                <button class="fitText {{=m.buttonAlign}} submitButton ani_cta_{{=m.buttonAnimation}}" id="submitButton" data-qa="button-submit">
+                  <span>{{=m.buttonText}}</span>
+                </button>
+              {{ } }}
+            </div>
+          </div>
+          <div class="hide">
+            <input type="submit" id="hiddenSubmitButton" class="hid">
+          </div>
+        </div>
+      </form>
+
+        {{ if (m.printable) { }}
+          <div class='buttonContainer text-center'><i class='fal fa-print printer'></i></div>
+        {{ } }}
+
+      </div>
+
+      {{ if ((!m.removePowrLogo || m.adminShowPowrMark) && !m.locals.show_after_submission_message && !m.locals.show_submission_limit_message) { }}
+        <div id="form-watermark-edit-on-click" class="clearfix position-relative">
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class='blog js-powrMark powrMark text-center'>
+      <a class='powrMarkLink js-watermark watermark-create-free' href='https://www.powr.io?src=watermark_contactForm' target='_blank'>
+      <img alt='POWR logo' class='powrMark__logo-block' loading='lazy' src='https://www.powrcdn.com/images/svgs/logo/powr-logo.svg'>
+      <span class='powrMark__text'>
+      <u>Contact Form</u> - Create your own for free!
+      </span>
+      </a>
+      </div>
+
+        </div>
+      {{ } }}
+
+                  </div>
+                  <div class="header-image header-image--right">
+                    <div id="form-header-image-edit-on-click" class="header-image__container">
+                      <div class="form-header-image-edit-on-click"></div>
+                    </div>
+                  </div>
+                </div>
+              {{ } else { }}
+                <div class="js-formBuilder-toggle formbuilder-toggle {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'hid' : ''}}">
+        {{ if (m.title || m.description) { }}
+          <div class="header">
+            {{ if (m.title) { }}
+              <div id="form-title-edit-on-click" class="position-relative">
+                <div class="form-title-edit-on-click"></div>
+                <h2 class="fitText formTitle">{{= m.title}}</h2>
+              </div>
+            {{ } }}
+            {{ if (m.description) { }}
+              <div id="form-description-edit-on-click" class="position-relative">
+                <div class="form-description-edit-on-click"></div>
+                <h3 class="description fitText" tabindex="0">{{= m.description}}</h3>
+              </div>
+            {{ } }}
+          </div>
+        {{ } }}
+        <form class="realForm" action="/app_form_responses" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qLzo6FJ-IY7VHv4PdeSV0-09gQsVFD4qRsIFEIDeS7qANwtyht7PZzzxbW05YGHvs3ZKhI6mhq_fpVbcTq2NgQ" />
+        <input class="honeypot hid no-print" type="text">
+        <div class="dynamicElements modernize-inputs-{{=m.fieldStyle}} modernize-inputs-{{=m.inputPaddingSize}} modernize-inputs" data-qa="dynamicElements"></div>
+
+        {{ if(m.captchaRequired && !m.paymentRequired){ }}
+        <div class="recaptchaContent">
+          <div class="form-group captchaImgWrapper"></div>
+        </div>
+        {{ } }}
+        <div id="invisibleCaptcha" class="hid"></div>
+        <div class="form-group col-sm-12 buttonContainer">
+
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="validationErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Please fill in required fields.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="braintreeErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Braintree doesn't recognize these keys.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="alreadySubmittedErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> You've already submitted a response</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="uploadErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Please wait for your uploads to finish.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="noBusinessErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Payments have not been connected for this form. If you're testing this form, you may need to refresh the page.</div>
+          <div class="hid no-print margin-bottom-m" id="spamDetection"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Whoa! This form has detected unusual activity, which might be spam. Please contact <a href="https://powr-support.zendesk.com/hc/en-us/requests/new">support</a> for help if you continue to see this message.</div>
+          <div role="alert" id="successAlert" class="success hid fitText no-print">
+            <div role="alert" class="triggerPayment button button-primary hid">Continue to Payment <i class="fal fa-credit-card"></i></div>
+            <div class="madeWithPowr powrMark">
+              This form was created with POWr.
+              <a href='https://www.powr.io/plugins/form-builder/standalone?from=form' target="_blank"><u>Create Your Own</u></a>
+            </div>
+          </div>
+          {{ if (m.multistepForm && m.displayProgress) { }}
+            <div id="form-progress-bar-edit-on-click" class="form-progress-bar" data-qa="form_progress-bar">
+              <div class="form-progress-bar-edit-on-click"></div>
+              <div class='progress-bar-line'>
+      <div class='progressBarBox'>
+      <div class='progress'>
+      <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar progress-bar-success' role='progressbar' style='width: 40%'>
+      <span class='progressText'>
+      <span class='progressTextInProgress hid'></span>
+      <span class='progressTextSuccess hid'>
+      <i class='fal fa-check-circle'></i>
+      </span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+              <div class="progress-bar-percentage">0%</div>
+            </div>
+          {{ } }}
+          <div class="buttonAndSummaryWrapper margin-h-nil" data-qa="buttonAndSummaryWrapper">
+            <div id="form-submit-button-edit-on-click" class="position-relative">
+              <div class="form-submit-button-edit-on-click"></div>
+              {{ if (m.multistepForm) { }}
+                {{ const firstStep = m.locals.currentStepIdx === 0; }}
+                <div class="buttonWrapper flex-row justify-content-between">
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js formBackButton {{=!firstStep ? 'flex-1' : ''}}" style="display: none;" id="formBackButton" data-qa="button-formBack">
+                    {{ if (m.backButtonIcon !== 'none') { }}
+                      <div class="back-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.backButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                    <span>{{=m.backButtonText}}</span>
+                  </button>
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js submitButton {{=firstStep ? m.buttonAlign : 'flex-1'}}" id="submitButton" data-qa="button-submit">
+                    <span>{{=m.nextButtonText}}</span>
+                    {{ if (m.nextButtonIcon !== 'none') { }}
+                      <div class="next-button-icon js-next-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.nextButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                  </button>
+                </div>
+              {{ } else { }}
+                <button class="fitText {{=m.buttonAlign}} submitButton ani_cta_{{=m.buttonAnimation}}" id="submitButton" data-qa="button-submit">
+                  <span>{{=m.buttonText}}</span>
+                </button>
+              {{ } }}
+            </div>
+          </div>
+          <div class="hide">
+            <input type="submit" id="hiddenSubmitButton" class="hid">
+          </div>
+        </div>
+      </form>
+
+        {{ if (m.printable) { }}
+          <div class='buttonContainer text-center'><i class='fal fa-print printer'></i></div>
+        {{ } }}
+
+      </div>
+
+      {{ if ((!m.removePowrLogo || m.adminShowPowrMark) && !m.locals.show_after_submission_message && !m.locals.show_submission_limit_message) { }}
+        <div id="form-watermark-edit-on-click" class="clearfix position-relative">
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class='blog js-powrMark powrMark text-center'>
+      <a class='powrMarkLink js-watermark watermark-create-free' href='https://www.powr.io?src=watermark_contactForm' target='_blank'>
+      <img alt='POWR logo' class='powrMark__logo-block' loading='lazy' src='https://www.powrcdn.com/images/svgs/logo/powr-logo.svg'>
+      <span class='powrMark__text'>
+      <u>Contact Form</u> - Create your own for free!
+      </span>
+      </a>
+      </div>
+
+        </div>
+      {{ } }}
+
+              {{ } }}
+            {{ } else { }}
+              {{ if (m.headerBackgroundImage && !m.isImageHidden && m.formBuilderLayout === 'topImageLayout' && m.formBuilderLayout !== 'noImageLayout') { }}
+                <div class="header-image header-image--top js-form-header-image">
+                  <div id="form-header-image-edit-on-click" class="header-image__container">
+                    <div class="form-header-image-edit-on-click"></div>
+                  </div>
+                </div>
+                <div class="js-formBuilder-toggle formbuilder-toggle {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'hid' : ''}}">
+        {{ if (m.title || m.description) { }}
+          <div class="header">
+            {{ if (m.title) { }}
+              <div id="form-title-edit-on-click" class="position-relative">
+                <div class="form-title-edit-on-click"></div>
+                <h2 class="fitText formTitle">{{= m.title}}</h2>
+              </div>
+            {{ } }}
+            {{ if (m.description) { }}
+              <div id="form-description-edit-on-click" class="position-relative">
+                <div class="form-description-edit-on-click"></div>
+                <h3 class="description fitText" tabindex="0">{{= m.description}}</h3>
+              </div>
+            {{ } }}
+          </div>
+        {{ } }}
+        <form class="realForm" action="/app_form_responses" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="eGHcCaU2sf8bkG5TRka0EEkDxgDRo6_xZWyBP6gWYmBQ6j-TcZZfFvJ__TEKwkAsF0gNj0oRF3T8C9LzZmWkWw" />
+        <input class="honeypot hid no-print" type="text">
+        <div class="dynamicElements modernize-inputs-{{=m.fieldStyle}} modernize-inputs-{{=m.inputPaddingSize}} modernize-inputs" data-qa="dynamicElements"></div>
+
+        {{ if(m.captchaRequired && !m.paymentRequired){ }}
+        <div class="recaptchaContent">
+          <div class="form-group captchaImgWrapper"></div>
+        </div>
+        {{ } }}
+        <div id="invisibleCaptcha" class="hid"></div>
+        <div class="form-group col-sm-12 buttonContainer">
+
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="validationErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Please fill in required fields.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="braintreeErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Braintree doesn't recognize these keys.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="alreadySubmittedErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> You've already submitted a response</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="uploadErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Please wait for your uploads to finish.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="noBusinessErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Payments have not been connected for this form. If you're testing this form, you may need to refresh the page.</div>
+          <div class="hid no-print margin-bottom-m" id="spamDetection"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Whoa! This form has detected unusual activity, which might be spam. Please contact <a href="https://powr-support.zendesk.com/hc/en-us/requests/new">support</a> for help if you continue to see this message.</div>
+          <div role="alert" id="successAlert" class="success hid fitText no-print">
+            <div role="alert" class="triggerPayment button button-primary hid">Continue to Payment <i class="fal fa-credit-card"></i></div>
+            <div class="madeWithPowr powrMark">
+              This form was created with POWr.
+              <a href='https://www.powr.io/plugins/form-builder/standalone?from=form' target="_blank"><u>Create Your Own</u></a>
+            </div>
+          </div>
+          {{ if (m.multistepForm && m.displayProgress) { }}
+            <div id="form-progress-bar-edit-on-click" class="form-progress-bar" data-qa="form_progress-bar">
+              <div class="form-progress-bar-edit-on-click"></div>
+              <div class='progress-bar-line'>
+      <div class='progressBarBox'>
+      <div class='progress'>
+      <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar progress-bar-success' role='progressbar' style='width: 40%'>
+      <span class='progressText'>
+      <span class='progressTextInProgress hid'></span>
+      <span class='progressTextSuccess hid'>
+      <i class='fal fa-check-circle'></i>
+      </span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+              <div class="progress-bar-percentage">0%</div>
+            </div>
+          {{ } }}
+          <div class="buttonAndSummaryWrapper margin-h-nil" data-qa="buttonAndSummaryWrapper">
+            <div id="form-submit-button-edit-on-click" class="position-relative">
+              <div class="form-submit-button-edit-on-click"></div>
+              {{ if (m.multistepForm) { }}
+                {{ const firstStep = m.locals.currentStepIdx === 0; }}
+                <div class="buttonWrapper flex-row justify-content-between">
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js formBackButton {{=!firstStep ? 'flex-1' : ''}}" style="display: none;" id="formBackButton" data-qa="button-formBack">
+                    {{ if (m.backButtonIcon !== 'none') { }}
+                      <div class="back-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.backButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                    <span>{{=m.backButtonText}}</span>
+                  </button>
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js submitButton {{=firstStep ? m.buttonAlign : 'flex-1'}}" id="submitButton" data-qa="button-submit">
+                    <span>{{=m.nextButtonText}}</span>
+                    {{ if (m.nextButtonIcon !== 'none') { }}
+                      <div class="next-button-icon js-next-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.nextButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                  </button>
+                </div>
+              {{ } else { }}
+                <button class="fitText {{=m.buttonAlign}} submitButton ani_cta_{{=m.buttonAnimation}}" id="submitButton" data-qa="button-submit">
+                  <span>{{=m.buttonText}}</span>
+                </button>
+              {{ } }}
+            </div>
+          </div>
+          <div class="hide">
+            <input type="submit" id="hiddenSubmitButton" class="hid">
+          </div>
+        </div>
+      </form>
+
+        {{ if (m.printable) { }}
+          <div class='buttonContainer text-center'><i class='fal fa-print printer'></i></div>
+        {{ } }}
+
+      </div>
+
+      {{ if ((!m.removePowrLogo || m.adminShowPowrMark) && !m.locals.show_after_submission_message && !m.locals.show_submission_limit_message) { }}
+        <div id="form-watermark-edit-on-click" class="clearfix position-relative">
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class='blog js-powrMark powrMark text-center'>
+      <a class='powrMarkLink js-watermark watermark-create-free' href='https://www.powr.io?src=watermark_contactForm' target='_blank'>
+      <img alt='POWR logo' class='powrMark__logo-block' loading='lazy' src='https://www.powrcdn.com/images/svgs/logo/powr-logo.svg'>
+      <span class='powrMark__text'>
+      <u>Contact Form</u> - Create your own for free!
+      </span>
+      </a>
+      </div>
+
+        </div>
+      {{ } }}
+
+              {{ } else if (m.headerBackgroundImage && m.mobileBackgroundImagePosition !== "hidden" && ( m.formBuilderLayout === 'leftImageLayout' || m.formBuilderLayout === 'rightImageLayout' )){ }}
+                <div class="header-image header-image--top js-form-header-image">
+                  <div id="form-header-image-edit-on-click" class="header-image__container">
+                    <div class="form-header-image-edit-on-click"></div>
+                  </div>
+                </div>
+                <div class="js-formBuilder-toggle formbuilder-toggle {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'hid' : ''}}">
+        {{ if (m.title || m.description) { }}
+          <div class="header">
+            {{ if (m.title) { }}
+              <div id="form-title-edit-on-click" class="position-relative">
+                <div class="form-title-edit-on-click"></div>
+                <h2 class="fitText formTitle">{{= m.title}}</h2>
+              </div>
+            {{ } }}
+            {{ if (m.description) { }}
+              <div id="form-description-edit-on-click" class="position-relative">
+                <div class="form-description-edit-on-click"></div>
+                <h3 class="description fitText" tabindex="0">{{= m.description}}</h3>
+              </div>
+            {{ } }}
+          </div>
+        {{ } }}
+        <form class="realForm" action="/app_form_responses" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="4PgsqcaoL29joP1qq7-rU1aLZbHb0WXfcA2Y-xzAI4TIc88zEgjBhopPbgjnO19vCMCuPkBj3Vrpass30rPlvw" />
+        <input class="honeypot hid no-print" type="text">
+        <div class="dynamicElements modernize-inputs-{{=m.fieldStyle}} modernize-inputs-{{=m.inputPaddingSize}} modernize-inputs" data-qa="dynamicElements"></div>
+
+        {{ if(m.captchaRequired && !m.paymentRequired){ }}
+        <div class="recaptchaContent">
+          <div class="form-group captchaImgWrapper"></div>
+        </div>
+        {{ } }}
+        <div id="invisibleCaptcha" class="hid"></div>
+        <div class="form-group col-sm-12 buttonContainer">
+
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="validationErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Please fill in required fields.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="braintreeErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Braintree doesn't recognize these keys.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="alreadySubmittedErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> You've already submitted a response</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="uploadErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Please wait for your uploads to finish.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="noBusinessErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Payments have not been connected for this form. If you're testing this form, you may need to refresh the page.</div>
+          <div class="hid no-print margin-bottom-m" id="spamDetection"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Whoa! This form has detected unusual activity, which might be spam. Please contact <a href="https://powr-support.zendesk.com/hc/en-us/requests/new">support</a> for help if you continue to see this message.</div>
+          <div role="alert" id="successAlert" class="success hid fitText no-print">
+            <div role="alert" class="triggerPayment button button-primary hid">Continue to Payment <i class="fal fa-credit-card"></i></div>
+            <div class="madeWithPowr powrMark">
+              This form was created with POWr.
+              <a href='https://www.powr.io/plugins/form-builder/standalone?from=form' target="_blank"><u>Create Your Own</u></a>
+            </div>
+          </div>
+          {{ if (m.multistepForm && m.displayProgress) { }}
+            <div id="form-progress-bar-edit-on-click" class="form-progress-bar" data-qa="form_progress-bar">
+              <div class="form-progress-bar-edit-on-click"></div>
+              <div class='progress-bar-line'>
+      <div class='progressBarBox'>
+      <div class='progress'>
+      <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar progress-bar-success' role='progressbar' style='width: 40%'>
+      <span class='progressText'>
+      <span class='progressTextInProgress hid'></span>
+      <span class='progressTextSuccess hid'>
+      <i class='fal fa-check-circle'></i>
+      </span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+              <div class="progress-bar-percentage">0%</div>
+            </div>
+          {{ } }}
+          <div class="buttonAndSummaryWrapper margin-h-nil" data-qa="buttonAndSummaryWrapper">
+            <div id="form-submit-button-edit-on-click" class="position-relative">
+              <div class="form-submit-button-edit-on-click"></div>
+              {{ if (m.multistepForm) { }}
+                {{ const firstStep = m.locals.currentStepIdx === 0; }}
+                <div class="buttonWrapper flex-row justify-content-between">
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js formBackButton {{=!firstStep ? 'flex-1' : ''}}" style="display: none;" id="formBackButton" data-qa="button-formBack">
+                    {{ if (m.backButtonIcon !== 'none') { }}
+                      <div class="back-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.backButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                    <span>{{=m.backButtonText}}</span>
+                  </button>
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js submitButton {{=firstStep ? m.buttonAlign : 'flex-1'}}" id="submitButton" data-qa="button-submit">
+                    <span>{{=m.nextButtonText}}</span>
+                    {{ if (m.nextButtonIcon !== 'none') { }}
+                      <div class="next-button-icon js-next-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.nextButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                  </button>
+                </div>
+              {{ } else { }}
+                <button class="fitText {{=m.buttonAlign}} submitButton ani_cta_{{=m.buttonAnimation}}" id="submitButton" data-qa="button-submit">
+                  <span>{{=m.buttonText}}</span>
+                </button>
+              {{ } }}
+            </div>
+          </div>
+          <div class="hide">
+            <input type="submit" id="hiddenSubmitButton" class="hid">
+          </div>
+        </div>
+      </form>
+
+        {{ if (m.printable) { }}
+          <div class='buttonContainer text-center'><i class='fal fa-print printer'></i></div>
+        {{ } }}
+
+      </div>
+
+      {{ if ((!m.removePowrLogo || m.adminShowPowrMark) && !m.locals.show_after_submission_message && !m.locals.show_submission_limit_message) { }}
+        <div id="form-watermark-edit-on-click" class="clearfix position-relative">
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class='blog js-powrMark powrMark text-center'>
+      <a class='powrMarkLink js-watermark watermark-create-free' href='https://www.powr.io?src=watermark_contactForm' target='_blank'>
+      <img alt='POWR logo' class='powrMark__logo-block' loading='lazy' src='https://www.powrcdn.com/images/svgs/logo/powr-logo.svg'>
+      <span class='powrMark__text'>
+      <u>Contact Form</u> - Create your own for free!
+      </span>
+      </a>
+      </div>
+
+        </div>
+      {{ } }}
+
+              {{ } else { }}
+                <div class="js-formBuilder-toggle formbuilder-toggle {{=(m.locals.show_after_submission_message || m.locals.show_submission_limit_message )? 'hid' : ''}}">
+        {{ if (m.title || m.description) { }}
+          <div class="header">
+            {{ if (m.title) { }}
+              <div id="form-title-edit-on-click" class="position-relative">
+                <div class="form-title-edit-on-click"></div>
+                <h2 class="fitText formTitle">{{= m.title}}</h2>
+              </div>
+            {{ } }}
+            {{ if (m.description) { }}
+              <div id="form-description-edit-on-click" class="position-relative">
+                <div class="form-description-edit-on-click"></div>
+                <h3 class="description fitText" tabindex="0">{{= m.description}}</h3>
+              </div>
+            {{ } }}
+          </div>
+        {{ } }}
+        <form class="realForm" action="/app_form_responses" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PbLOehRSr9DjsvPcBemqaSDOC6lcWzKCT3HOXOLVEYEVOS3gwPJBOQpdYL5JbV5VfoXAJsfpigfWFp2QLKbXug" />
+        <input class="honeypot hid no-print" type="text">
+        <div class="dynamicElements modernize-inputs-{{=m.fieldStyle}} modernize-inputs-{{=m.inputPaddingSize}} modernize-inputs" data-qa="dynamicElements"></div>
+
+        {{ if(m.captchaRequired && !m.paymentRequired){ }}
+        <div class="recaptchaContent">
+          <div class="form-group captchaImgWrapper"></div>
+        </div>
+        {{ } }}
+        <div id="invisibleCaptcha" class="hid"></div>
+        <div class="form-group col-sm-12 buttonContainer">
+
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="validationErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Please fill in required fields.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="braintreeErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i>Braintree doesn't recognize these keys.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="alreadySubmittedErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> You've already submitted a response</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="uploadErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Please wait for your uploads to finish.</div>
+          <div role="alert" class="errors hid no-print margin-bottom-m" id="noBusinessErrors"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Payments have not been connected for this form. If you're testing this form, you may need to refresh the page.</div>
+          <div class="hid no-print margin-bottom-m" id="spamDetection"><i class="fas fa-exclamation-triangle margin-right-xs"></i> Whoa! This form has detected unusual activity, which might be spam. Please contact <a href="https://powr-support.zendesk.com/hc/en-us/requests/new">support</a> for help if you continue to see this message.</div>
+          <div role="alert" id="successAlert" class="success hid fitText no-print">
+            <div role="alert" class="triggerPayment button button-primary hid">Continue to Payment <i class="fal fa-credit-card"></i></div>
+            <div class="madeWithPowr powrMark">
+              This form was created with POWr.
+              <a href='https://www.powr.io/plugins/form-builder/standalone?from=form' target="_blank"><u>Create Your Own</u></a>
+            </div>
+          </div>
+          {{ if (m.multistepForm && m.displayProgress) { }}
+            <div id="form-progress-bar-edit-on-click" class="form-progress-bar" data-qa="form_progress-bar">
+              <div class="form-progress-bar-edit-on-click"></div>
+              <div class='progress-bar-line'>
+      <div class='progressBarBox'>
+      <div class='progress'>
+      <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='40' class='progress-bar progress-bar-success' role='progressbar' style='width: 40%'>
+      <span class='progressText'>
+      <span class='progressTextInProgress hid'></span>
+      <span class='progressTextSuccess hid'>
+      <i class='fal fa-check-circle'></i>
+      </span>
+      </span>
+      </div>
+      </div>
+      </div>
+      </div>
+
+              <div class="progress-bar-percentage">0%</div>
+            </div>
+          {{ } }}
+          <div class="buttonAndSummaryWrapper margin-h-nil" data-qa="buttonAndSummaryWrapper">
+            <div id="form-submit-button-edit-on-click" class="position-relative">
+              <div class="form-submit-button-edit-on-click"></div>
+              {{ if (m.multistepForm) { }}
+                {{ const firstStep = m.locals.currentStepIdx === 0; }}
+                <div class="buttonWrapper flex-row justify-content-between">
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js formBackButton {{=!firstStep ? 'flex-1' : ''}}" style="display: none;" id="formBackButton" data-qa="button-formBack">
+                    {{ if (m.backButtonIcon !== 'none') { }}
+                      <div class="back-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.backButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                    <span>{{=m.backButtonText}}</span>
+                  </button>
+                  <button class="fitText ani_cta_{{=m.buttonAnimation}} scrollTop-js submitButton {{=firstStep ? m.buttonAlign : 'flex-1'}}" id="submitButton" data-qa="button-submit">
+                    <span>{{=m.nextButtonText}}</span>
+                    {{ if (m.nextButtonIcon !== 'none') { }}
+                      <div class="next-button-icon js-next-button-icon {{=m.buttonSize}}">
+                        <i class="{{=window.getFaIcon(m.nextButtonIcon)}}"></i>
+                      </div>
+                    {{ } }}
+                  </button>
+                </div>
+              {{ } else { }}
+                <button class="fitText {{=m.buttonAlign}} submitButton ani_cta_{{=m.buttonAnimation}}" id="submitButton" data-qa="button-submit">
+                  <span>{{=m.buttonText}}</span>
+                </button>
+              {{ } }}
+            </div>
+          </div>
+          <div class="hide">
+            <input type="submit" id="hiddenSubmitButton" class="hid">
+          </div>
+        </div>
+      </form>
+
+        {{ if (m.printable) { }}
+          <div class='buttonContainer text-center'><i class='fal fa-print printer'></i></div>
+        {{ } }}
+
+      </div>
+
+      {{ if ((!m.removePowrLogo || m.adminShowPowrMark) && !m.locals.show_after_submission_message && !m.locals.show_submission_limit_message) { }}
+        <div id="form-watermark-edit-on-click" class="clearfix position-relative">
+          <div class="form-watermark-edit-on-click"></div>
+          <hr class="powr-mark-separator" />
+          <div class='blog js-powrMark powrMark text-center'>
+      <a class='powrMarkLink js-watermark watermark-create-free' href='https://www.powr.io?src=watermark_contactForm' target='_blank'>
+      <img alt='POWR logo' class='powrMark__logo-block' loading='lazy' src='https://www.powrcdn.com/images/svgs/logo/powr-logo.svg'>
+      <span class='powrMark__text'>
+      <u>Contact Form</u> - Create your own for free!
+      </span>
+      </a>
+      </div>
+
+        </div>
+      {{ } }}
+
+              {{ } }}
+            {{ } }}
+            </div>
+            {{ if (m.locals.displayMode == 'modalForm') { }}
+              </div>
+              </div>
+            </div>
+          {{ } }}
+        {{ } }}
+        <div class='alternates usefulContentLink hid'></div>
+
+        {{ if(m.paymentRequired) { }}
+          <div class='hid' id='simple_copies_dictionary'>
+            {&quot;checkout_screen.address&quot;:&quot;Address&quot;,&quot;checkout_screen.address_fullName_required&quot;:&quot;(Please write your full name.)&quot;,&quot;checkout_screen.address_required&quot;:&quot;Please complete all shipping address fields.&quot;,&quot;checkout_screen.apply&quot;:&quot;Apply&quot;,&quot;checkout_screen.awaiting_payment&quot;:&quot;Your submission has been received, but we&#39;re still awaiting payment.&quot;,&quot;checkout_screen.back_to_site&quot;:&quot;Back to Site&quot;,&quot;checkout_screen.back_to_store&quot;:&quot;Back to Store&quot;,&quot;checkout_screen.city&quot;:&quot;City&quot;,&quot;checkout_screen.continue&quot;:&quot;Continue&quot;,&quot;checkout_screen.day&quot;:&quot;day&quot;,&quot;checkout_screen.days&quot;:&quot;days&quot;,&quot;checkout_screen.discount&quot;:&quot;Discount&quot;,&quot;checkout_screen.discount_code&quot;:&quot;Discount Code&quot;,&quot;checkout_screen.donate&quot;:&quot;Donate&quot;,&quot;checkout_screen.donation_received&quot;:&quot;Donation Received!&quot;,&quot;checkout_screen.donation_summary&quot;:&quot;Donation Summary&quot;,&quot;checkout_screen.done_with_payment&quot;:&quot;Done with Payment&quot;,&quot;checkout_screen.email_address&quot;:&quot;Email Address&quot;,&quot;checkout_screen.email_address_required&quot;:&quot;Please add your email address to begin checkout.&quot;,&quot;checkout_screen.error&quot;:&quot;Your transaction could not be processed. Please try again.&quot;,&quot;checkout_screen.first_name&quot;:&quot;First Name&quot;,&quot;checkout_screen.invalid_email_address&quot;:&quot;Please add a valid email address.&quot;,&quot;checkout_screen.last_name&quot;:&quot;Last Name&quot;,&quot;checkout_screen.memo_placeholder&quot;:&quot;Add special instructions&quot;,&quot;checkout_screen.month&quot;:&quot;month&quot;,&quot;checkout_screen.months&quot;:&quot;months&quot;,&quot;checkout_screen.offline_label&quot;:&quot;Offline Payments&quot;,&quot;checkout_screen.onauthorize_error&quot;:&quot;Your transaction could not be processed. Please try again.&quot;,&quot;checkout_screen.order_summary&quot;:&quot;Order Summary&quot;,&quot;checkout_screen.pay&quot;:&quot;Pay&quot;,&quot;checkout_screen.payment&quot;:&quot;Payment&quot;,&quot;checkout_screen.payment_error&quot;:&quot;Your payment can not be initilized please, try again.&quot;,&quot;checkout_screen.payment_received&quot;:&quot;Payment Received!&quot;,&quot;checkout_screen.paypal_error&quot;:&quot;Paypal was not able to complete your request. Please try again or use another Paypal account.&quot;,&quot;checkout_screen.processing_payment&quot;:&quot;Processing Payment&quot;,&quot;checkout_screen.reopen_payment_window&quot;:&quot;Click to reopen payment window&quot;,&quot;checkout_screen.safe_and_secure&quot;:&quot;Safe and Secure&quot;,&quot;checkout_screen.shipping&quot;:&quot;Shipping&quot;,&quot;checkout_screen.shipping_address&quot;:&quot;Shipping Address&quot;,&quot;checkout_screen.state&quot;:&quot;State&quot;,&quot;checkout_screen.stripe_minimum&quot;:&quot;For Credit Card Minimum Charge&quot;,&quot;checkout_screen.subscription_total_note&quot;:&quot;every {durationNumber} {durationUnits}&quot;,&quot;checkout_screen.subtotal&quot;:&quot;Subtotal&quot;,&quot;checkout_screen.tax&quot;:&quot;Tax&quot;,&quot;checkout_screen.total&quot;:&quot;Total&quot;,&quot;checkout_screen.totals&quot;:&quot;Totals&quot;,&quot;checkout_screen.trial_note&quot;:&quot;{currencyCode} {trialPrice} for the first {durationNumber} {durationUnits}&quot;,&quot;checkout_screen.trial_total_note&quot;:&quot;trial price, then {currencyCode} {futurePrice} every {durationNumber} {durationUnits}&quot;,&quot;checkout_screen.week&quot;:&quot;week&quot;,&quot;checkout_screen.weeks&quot;:&quot;weeks&quot;,&quot;checkout_screen.year&quot;:&quot;year&quot;,&quot;checkout_screen.years&quot;:&quot;years&quot;,&quot;checkout_screen.zip_country&quot;:&quot;Zip Code or Country&quot;}
+          </div>
+        {{ } }}
+    </script>
+    <script id="formElementTemplateV2" type="text/html">
+        {{ if(item.type == 'text') { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group fadeMe text" data-qa="formElement-text">
+              <div class="{{=idx}}"></div>
+              <label class="fitText for-input">{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+              <input aria-describedby="{{=idx}}_errors" class="form-control" value='{{=item.value}}' name="{{=idx}}" placeholder="{{=item.required ? '*' : ''}}{{=htmlSafe(item.label)}}" type="text" {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}" title="{{=safeAttr(item.label)}}" data-max="{{= parseInt(item.characterLimit) || 250 }}" data-limiting="{{=item.limitingCharacters}}">
+              <div class="lengthSummary fitText {{= item.limitingCharacters ? '' : 'hid'}}">
+                <span class="lengthErrors lengthErrors hid">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+                <span role="alert" class="currentLength">0 out of {{= parseInt(item.characterLimit) || 250 }} character{{= item.characterLimit == 1 ? '' : 's' }}</span>
+              </div>
+            </div>
+          </div>
+
+        {{ }else if(item.type == 'text_content') { }}
+          <div class="col-sm-12 clearfix form__element--min-height-zero">
+            <div id='{{=idx}}' class="formElement form-group fadeMe textContentView"  data-qa="formElement-textContent">
+              <div class="{{=idx}}"></div>
+              <div class="styledText">{{=item.text_content}}</div>
+            </div>
+          </div>
+        {{ } else if (item.type === 'gdpr') { }}
+          <div class="col-sm-12 clearfix form__element--min-height-zero">
+        <div id='{{=idx}}' aria-describedby="{{=idx}}_errors" class="formElement form-group fadeMe gdprPermissions multipleCheckbox choice" name="{{=idx}}" data-export-field="{{=item.exportField}}" data-qa="formElement-multipleCheckbox">
+          <div class="{{=idx}}"></div>
+          <fieldset>
+            <label class="styledText">{{=item.marketingPermissions}}</label>
+            <div class="form-group fadeMe">
+              <label class="choice-option">
+                <div class="choice-option__input-wrapper">
+                  <div class="choice-option__input">
+                    <input class="checkbox" name="{{=idx}}" id="{{=idx}}" type="checkbox" value="Email">
+                    <span class="choice-option__control choice-option__control--checkbox">
+                      <span>
+                        <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                  <span class="choice-option__label fitText" for="{{=idx}}">
+                    {{=htmlSafe(item.emailPermissionLabel)}}
+                  </span>
+                </div>
+              </label>
+
+              {{ if(item.marketingPermission) { }}
+                <label class="choice-option">
+                  <div class="choice-option__input-wrapper">
+                    <div class="choice-option__input">
+                      <input class="checkbox" name="{{=idx}}" id="{{=idx}}" type="checkbox" value="{{=item.marketingPermissionLabel}}">
+                      <span class="choice-option__control choice-option__control--checkbox">
+                        <span>
+                          <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                          </svg>
+                        </span>
+                      </span>
+                    </div>
+                    <span class="choice-option__label fitText" for="{{=idx}}">
+                      {{=htmlSafe(item.marketingPermissionLabel)}}
+                    </span>
+                  </div>
+                </label>
+              {{ } }}
+
+              {{ if(item.customPermission) { }}
+                <label class="choice-option">
+                  <div class="choice-option__input-wrapper">
+                    <div class="choice-option__input">
+                      <input class="checkbox" name="{{=idx}}" id="{{=idx}}" type="checkbox" value="{{=item.customPermissionLabel}}">
+                      <span class="choice-option__control choice-option__control--checkbox">
+                        <span>
+                          <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                          </svg>
+                        </span>
+                      </span>
+                    </div>
+                    <span class="choice-option__label fitText" for="{{=idx}}">
+                      {{=htmlSafe(item.customPermissionLabel)}}
+                    </span>
+                  </div>
+                </label>
+              {{ } }}
+            </div>
+          </fieldset>
+          <br />
+          <div class="styledText">{{=item.privacyPolicy}}</div>
+          <br />
+          <div class="styledText">{{=item.thirdPartyPermissions}}</div>
+        </div>
+      </div>
+        {{ } else if (item.type === 'address') { }}
+          <div class="col-sm-12 clearfix form__element--min-height-zero">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement addressWrapper form-group" data-label="{{=htmlSafe(item.label)}}" data-is-shipping-address="{{=item.isShippingAddress}}" data-qa="formElement-address">
+          <div class="{{=idx}}"></div>
+        </div>
+      </div>
+        {{ } else if (item.type === 'space') { }}
+          <div class="col-sm-12 clearfix form__element--min-height-zero">
+            <div id='{{=idx}}' class="formElement form-group fadeMe text clearfix" data-qa="formElement-space">
+              <div class="{{=idx}}"></div>
+              <div tabindex="0" class="space" aria-label="Space" title="Space"></div>
+            </div>
+          </div>
+
+        {{ }else if(item.type == 'url') { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group fadeMe text" data-qa="formElement-url">
+              <div class="{{=idx}}"></div>
+              <label class="fitText for-input">{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+              <input aria-describedby="{{=idx}}_errors" value='{{=htmlSafe(item.value)}}' class="form-control" name="{{=idx}}" placeholder="{{=item.required ? '*' : ''}}{{=htmlSafe(item.label)}}" type="url" {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}" title="{{=safeAttr(item.label)}}" aria-label="Enter URL">
+            </div>
+          </div>
+
+        {{ }else if(item.type == 'signature') { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group fadeMe text">
+              <div class="{{=idx}}"></div>
+              <div powr-react="PowrSignature" powr-react-id="{{=idx}}" id-for-props="powrSignature" aria-describedby="{{=idx}}_errors"></div>
+            </div>
+          </div>
+
+        {{ }else if(item.type == 'phone') { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div id='{{=idx}}' class="formElement form-group fadeMe text margin-bottom-s">
+          <div class="{{=idx}}"></div>
+          <div powr-react="PowrPhoneNumberInput" powr-react-id="{{=idx}}" aria-describedby="{{=idx}}_errors" id-for-props="phoneNumber" data-export-field="{{=item.exportField}}" data-qa="input-phoneNumber"></div>
+        </div>
+        {{ if (item.optIn) { }}
+          <div class="pad-top-s formElement form-group fadeMe checkbox choice">
+        <label class="choice-option">
+          <div class="choice-option__input-wrapper">
+            <div class="choice-option__input">
+              <input {{=item.optInValue ? 'checked="checked"' : ''}} class="checkbox" name="{{=idx}}" id="{{=item.idx}}-optin" type="checkbox" >
+              <span class="choice-option__control choice-option__control--checkbox">
+                <span>
+                  <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                  </svg>
+                </span>
+              </span>
+            </div>
+            <span class="choice-option__label fitText flex-row" for="{{=idx}}">
+              {{=(item.optInRequired) ? '<span class="required">*</span>' + item.optInLabel : item.optInLabel}}
+            </span>
+          </div>
+        </label>
+        <div id="{{=item.idx}}-optin-error-container"></div>
+      </div>
+        {{ } }}
+      </div>
+
+        {{ } else if (item.type === 'textarea') { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group fadeMe textarea" data-qa="formElement-textarea">
+              <div class="{{=idx}}"></div>
+              <label class="fitText for-input">{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+              <textarea aria-describedby="{{=idx}}_errors" class="form-control" name="{{=idx}}" placeholder="{{=item.required ? '*' : ''}}{{=m.fieldStyle === 'line' ? '' : htmlSafe(item.label)}}" {{=item.required ? 'required' : ''}} data-max="{{= parseInt(item.characterLimit) || 250 }}" data-limiting="{{=item.limitingCharacters}}" style="height: {{=item.paragraphHeight || 'auto'}}" data-export-field="{{=item.exportField}}" value="{{=item.value}}" title="{{=safeAttr(item.label)}}" aria-label="Enter Text">{{=item.value}}</textarea>
+              <div class="lengthSummary fitText {{= item.limitingCharacters ? '' : 'hid'}}">
+                <span class="lengthErrors lengthErrors hid">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+                <span role="alert" class="currentLength">0 out of {{= parseInt(item.characterLimit) || 250 }} character{{= item.characterLimit == 1 ? '' : 's' }}</span>
+              </div>
+            </div>
+          </div>
+        {{ } else if (item.type === 'label') { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group fadeMe formLabel" data-qa="formElement-label">
+              <div class="{{=idx}}"></div>
+              <label class="fitText labelElement" tabindex="0">{{=item.label}}</label>
+            </div>
+          </div>
+        {{ } else if (item.type === 'image') { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group formImageWrapper fadeMe" style="{{=item.imageAlign ? ("text-align:"+item.imageAlign) : null}}" data-qa="formElement-image">
+              <div class="{{=idx}}"></div>
+              {{ if(item.contentUrl != undefined && item.contentUrl.length>0){ }}
+                <a href="{{=urlFormat(item.contentUrl)}}">
+                  <img class="formImage" src="{{=item.image}}" style="{{= item.imageSize ? ("max-height:"+item.imageSize) : null }}" data-node-image="{{=item.image}}" alt="{{=safeAttr(item.altTag)}}" data-qa="formImage">
+                </a>
+              {{ }else{ }}
+                <img class="formImage" src="{{=item.image}}" style="{{= item.imageSize ? ("max-height:"+item.imageSize) : null }}" data-node-image="{{=item.image}}" alt="{{=safeAttr(item.altTag)}}" data-qa="formImage">
+              {{ } }}
+            </div>
+          </div>
+
+        {{ }else if(item.type === 'checkbox') { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement form-group fadeMe checkbox choice" data-qa="formElement-checkbox">
+          <div class="{{=idx}}"></div>
+          <label class="choice-option">
+            <div class="choice-option__input-wrapper vertical">
+              <div class="choice-option__input">
+                <input class="checkbox" name="{{=idx}}" id="{{=idx}}" type="checkbox" value="{{=htmlSafe(item.value)}}" {{=item.defaultChecked || item.checked ? 'checked' : ''}}>
+                <span class="choice-option__control choice-option__control--checkbox">
+                  <span>
+                    <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                    </svg>
+                  </span>
+                </span>
+              </div>
+              <span class="choice-option__label fitText" for="{{=idx}}">
+                {{=(item.required) ? '<span class="required">*</span>' + item.label : item.label}}
+              </span>
+            </div>
+          </label>
+        </div>
+      </div>
+        {{ } else if (item.type == 'number') { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group fadeMe numberField" data-qa="formElement-number">
+              <div class="{{=idx}}"></div>
+              <label class="fitText for-input">{{=item.required ? '<span class="required">*</span>' : ''}}{{=item.label}}</label>
+              <input aria-describedby="{{=idx}}_errors" value='{{=item.value}}' class="number form-control" name="{{=idx}}" type="number" value="{{=htmlSafe(item.label)}}" {{=item.required ? 'required' : ''}}  data-export-field="{{=item.exportField}}" >
+            </div>
+          </div>
+        {{ } else if(item.type === 'multipleCheckbox') { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement form-group fadeMe multipleCheckbox choice {{=item.required ? 'hiddenRequired' : null}}" name="{{=idx}}" data-export-field="{{=item.exportField}}" data-qa="formElement-multipleCheckbox">
+          <div class="{{=idx}}"></div>
+          <fieldset>
+            <label class="choice-options-label fitText">{{= (item.required) ? '<span class="required">*</span>' + item.label : item.label}}</label>
+            <div class="choice-options {{=item.radioAlign}}">
+              {{ const options = item.options || [] }}
+              {{ options.map((opt, index) => { }}
+                <label class="choice-option">
+                  <div class="choice-option__input-wrapper {{=item.radioAlign}}">
+                    <div class="choice-option__input">
+                      <input class="checkbox" name="{{=idx}}" id="{{=idx +'-'+ index}}" type="checkbox" value="{{=htmlSafe(opt.name)}}" {{=item.selectedOptions && item.selectedOptions.indexOf(opt.name) >= 0 ? 'checked' : ''}} data-price="{{=opt.price}}" >
+                      <span class="choice-option__control choice-option__control--checkbox">
+                        <span>
+                          <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                          </svg>
+                        </span>
+                      </span>
+                    </div>
+                    <span class="choice-option__label fitText" for="{{=idx +'-'+ index}}">
+                      {{=htmlSafe(opt.name) }}
+                    </span>
+                  </div>
+                  {{ if (m.paymentRequired && opt.price){ }}
+                    <span class="nowrap">
+                      ({{= view.optionCurrencyPriceString(opt.price) }})
+                    </span>
+                  {{ } }}
+                </label>
+              {{ }); }}
+              {{ if (item.hasOtherChoice) { }}
+                <label class="choice-option-other-choice">
+                  <div class="choice-option">
+                    <div class="choice-option__input-wrapper">
+                      <div class="choice-option__input">
+                        <input class="checkbox" name="{{=idx}}" id="{{=idx+'other'}}" type="checkbox" class="otherChoice-js" value="{{=htmlSafe(item.otherChoiceName)}}" {{=(item.selectedOption && item.selectedOption === item.otherChoiceName ? 'checked' : '')}} {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}" data-price="0" />
+                        <span class="choice-option__control choice-option__control--checkbox">
+                          <span>
+                            <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                            </svg>
+                          </span>
+                        </span>
+                      </div>
+                      <span class="choice-option__label fitText" for="{{=idx+'other'}}">
+                        {{=item.otherChoiceName}}
+                      </span>
+                    </div>
+                  </div>
+                  <div class="choice-option-other-choice__input">
+                    <input class="otherChoiceValue-js form-control {{=item.selectedOption && item.selectedOption === item.otherChoiceName ? 'option__othertext--visible' : 'option__othertext--hidden'}}" value='{{=item.otherChoiceValue}}' name="{{=idx}}" type="text" placeholder="{{= m.labelType === 'inlineLabels' ? item.otherChoiceName : ''}}" />
+                  </div>
+                </label>
+              {{ } }}
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+        {{ } else if (item.type === 'radio') { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement form-group fadeMe radio choice" data-qa="formElement-radio">
+          <div class="{{=idx}}"></div>
+          <fieldset>
+            <label class="choice-options-label fitText">{{= (item.required) ? '<span class="required">*</span>' + item.label : item.label}}</label>
+            <div class="choice-options {{=item.radioAlign}}">
+              {{ const options = item.options || [] }}
+              {{ options.map((opt, index) => { }}
+                <label class="choice-option">
+                  <div class="choice-option__input-wrapper {{=item.radioAlign}}">
+                    <div class="choice-option__input">
+                      <input name="{{=idx}}" id="{{=idx +'-'+ index}}" type="radio" value="{{=htmlSafe(opt.name)}}" data-price="{{=opt.price}}" {{=item.selectedOption && item.selectedOption === opt.name ? 'checked' : '' }} {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}">
+                      <span class="choice-option__control choice-option__control--radio-button" />
+                    </div>
+                    <span class="choice-option__label fitText" for="{{=idx +'-'+ index}}">
+                      {{=htmlSafe(opt.name) }}
+                    </span>
+                  </div>
+                  {{ if (m.paymentRequired && opt.price) { }}
+                    <span class="nowrap">
+                      ({{=view.optionCurrencyPriceString(opt.price) }})
+                    </span>
+                  {{ } }}
+                </label>
+              {{ }); }}
+              {{ if (item.hasOtherChoice) { }}
+                <label class="choice-option-other-choice">
+                  <div class="choice-option">
+                    <div class="choice-option__input-wrapper">
+                      <div class="choice-option__input">
+                        <input name="{{=idx}}" id="{{=idx+'other'}}" type="radio" class="otherChoice-js" value="{{=htmlSafe(item.otherChoiceName)}}" {{=(item.selectedOption && item.selectedOption === item.otherChoiceName ? 'checked' : '')}} {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}" />
+                        <span class="choice-option__control choice-option__control--radio-button" />
+                      </div>
+                      <span class="choice-option__label fitText" for="{{=idx+'other'}}">
+                        {{=item.otherChoiceName}}
+                      </span>
+                    </div>
+                  </div>
+                  <div class="choice-option-other-choice__input">
+                    <input class="otherChoiceValue-js form-control {{=item.selectedOption && item.selectedOption === item.otherChoiceName ? 'option__othertext--visible' : 'option__othertext--hidden'}}" value='{{=item.otherChoiceValue}}' name="{{=idx}}" type="text" placeholder="{{= m.labelType === 'inlineLabels' ? item.otherChoiceName : ''}}" />
+                  </div>
+                </label>
+              {{ } }}
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+        {{ } else if (item.type == 'radioimage' && !item.disabled) { }}
+          <div class="{{=(item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement form-group fadeMe radioImage" data-qa="formElement-radioimage">
+          <div class="{{=idx}}"></div>
+          {{ if (item.label.length > 0){ }}
+            <label class="fitText" tabindex="0">{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+            <div class="grid {{=item.pictureLayout == 2 ? 'grid-2n' : 'grid-3n'}} grid-{{=item.radioAlign}}">
+          {{ } else { }}
+            <div class="grid {{=item.pictureLayout == 2 ? 'grid-2n' : 'grid-3n'}} grid-{{=item.radioAlign}}">
+              <label class="fitText">{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+              {{ } }}
+              {{  _.each(item.options, function(opt, index){ }}
+              <div class="grid__item">
+                <label tabindex="0" class="radioOption fitText {{= item.selectedOption === opt.name ? 'checked' : ''}}" style="border-radius: {{=item.radioImageBorderRadius}}">
+                  <div class="imageWrapper" style="border-radius: {{=parseInt(item.radioImageBorderRadius) / 2 + 'px'}}">
+                    <input name="{{=idx}}" type="radio" data-form-type="radioimage" value="{{=htmlSafe(opt.name)}}" data-price="{{=opt.price}}" {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}" style='display:none!important;'>
+                    <div class="imageWrapper__img" style="background-image: url({{=htmlSafe(opt.name)}}); background-size: {{= item.backgroundSizes && item.backgroundSizes[index] === 'fit' ? 'contain' : 'cover'}}"></div>
+                    <img src="{{=htmlSafe(opt.name)}}" alt="{{= item.altTags ? safeAttr(item.altTags[index]) : ''}}"/>
+                  </div>
+                  {{ if (m.paymentRequired && opt.price){ }}
+                  <strong class="radio-image-price">
+                    <i>Price: {{=view.optionCurrencyPriceString(opt.price) }}</i>
+                  </strong>
+                  {{ } }}
+                  {{ if( item.captions ){ }}
+                  <div class="imageCaption fitText text-center">
+                    {{= item.captions[index] }}
+                  </div>
+                  {{ } }}
+                </label>
+              </div>
+              {{ }); }}
+            </div>
+          </div>
+        </div>
+      </div>
+        {{ } else if (item.type === 'rating' && !item.disabled) { }}
+          <div class="col-sm-12 clearfix form__element--min-height-zero">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement form-group fadeMe rating" data-qa="formElement-rating">
+          <div class="{{=idx}}"></div>
+          <label class="fitText" {{=(item.label.length > 0) ? 'tabindex="0"' : ''}}>{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+          <div class="ratingOption">
+            {{for (let i = 1; i <= item.ratingNumberOfSymbols; i++) { }}
+              <div class="ratingOptionItem text-center ratingOptionItem-js" style="fill: {{=item.ratingSymbolColor}}; stroke: {{=item.ratingSymbolColor}}">
+                {{ if (item.ratingStyle === 'star') { }}
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" width="32" height="31" viewBox="0 0 32 31">
+                    <path d="M16 1.58852L19.6252 10.2439L20.5476 9.8576L19.6252 10.2439C19.9136 10.9324 20.5613 11.403 21.3052 11.4645L30.6572 12.2376L23.5457 18.36C22.98 18.847 22.7326 19.6085 22.904 20.3349L25.0586 29.4681L17.0383 24.5966C16.4003 24.2091 15.5997 24.2091 14.9617 24.5966L6.94136 29.4681L9.09602 20.3349C9.2674 19.6085 9.02 18.847 8.45434 18.36L1.34281 12.2376L10.6948 11.4645C11.4387 11.403 12.0864 10.9324 12.3748 10.2439L16 1.58852Z" stroke="{{=item.ratingSymbolColor}}" stroke-width="2"/>
+                  </svg>
+                {{ } else if(item.ratingStyle === 'circle') { }}
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle" class="svg-inline--fal fa-circle fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="-4 -5 524 524">
+                    <path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path>
+                  </svg>
+                {{ } }}
+                <p class="{{=!item.ratingShowNumbers && 'hid'}}">{{=i}}</p>
+              </div>
+            {{ } }}
+            <input type="rating" name="{{=item.idx}}" data-form-type="rating" value="" class="ratingOptionValue" {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}" style='display:none!important;'>
+          </div>
+        </div>
+      </div>
+        {{ } else if (item.type == 'emoji' && !item.disabled) { }}
+          <div class="col-sm-12 clearfix form__element--min-height-zero">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement form-group fadeMe emojiFeedback" data-qa="formElement-emoji">
+          <div class="{{=idx}}"></div>
+          <label class="fitText" {{=(item.label.length > 0) ? 'tabindex="0"' : ''}}>{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+          <div class="emojiOptions pad-top-s">
+            {{var optionsLength = item.options ? item.options.length : 0}}
+            {{_.each(item.options, function(opt){}}
+              {{emojiOption = JSON.parse(opt.name)}}
+              <div class="emojiOption emojiOption-js emoji-{{=optionsLength}}" data-emojivalue="{{=htmlSafe(emojiOption.emoji)}} {{=htmlSafe(emojiOption.text)}}">
+                <input name="{{=idx}}" type="emoji" data-form-type="emoji" value="{{=htmlSafe(emojiOption.emoji)}} {{=htmlSafe(emojiOption.text)}}"
+                {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}" style='display:none!important;'>
+                <div class="emojiImage">
+                  {{=htmlSafe(emojiOption.emoji)}}
+                </div>
+                {{=htmlSafe(emojiOption.text)}}
+            </div>
+            {{});}}
+          </div>
+        </div>
+      </div>
+
+        {{ }else if(item.type == 'email') { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div id='{{=idx}}' class="formElement form-group fadeMe text" data-qa="formElement-email">
+          <div class="{{=idx}}"></div>
+          <label class="fitText for-input">{{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}}</label>
+          <input aria-describedby="{{=idx}}_errors" value='{{=item.value}}' class="form-control email" name="{{=idx}}"  placeholder="{{=item.required ? '*' : ''}}{{=htmlSafe(item.label)}}" type="email" {{=item.required ? 'required' : ''}} data-send-confirmation-email="{{=item.sendConfirmationEmail}}" data-subscribe="{{=item.subscribeToMailchimp}}" data-form-type="email" title="{{=safeAttr(item.label)}}">
+        </div>
+        {{ if (item.optIn) { }}
+          <div class="pad-top-s formElement form-group fadeMe checkbox choice">
+        <label class="choice-option">
+          <div class="choice-option__input-wrapper">
+            <div class="choice-option__input">
+              <input {{=item.optInValue ? 'checked="checked"' : ''}} class="checkbox" name="{{=idx}}" id="{{=item.idx}}-optin" type="checkbox" >
+              <span class="choice-option__control choice-option__control--checkbox">
+                <span>
+                  <svg width="14" height="11" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.892578 5.03575L5.39258 9.53575L13.4283 0.857178" stroke="white" stroke-width="2"/>
+                  </svg>
+                </span>
+              </span>
+            </div>
+            <span class="choice-option__label fitText flex-row" for="{{=idx}}">
+              {{=(item.optInRequired) ? '<span class="required">*</span>' + item.optInLabel : item.optInLabel}}
+            </span>
+          </div>
+        </label>
+        <div id="{{=item.idx}}-optin-error-container"></div>
+      </div>
+        {{ } }}
+      </div>
+
+        {{ }else if(item.type == 'linebreak') { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id='{{=idx}}' class="formElement form-group fadeMe text" data-qa="formElement-linebreak">
+              <div class="{{=idx}}"></div>
+              <hr>
+            </div>
+          </div>
+
+        {{ }else if(item.type == 'select') { }}
+            <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div id='{{=idx}}' class="formElement form-group fadeMe select choice" data-qa="formElement-select">
+          <div class="{{=idx}}"></div>
+          <label class="fitText form-dropdown__label">{{=item.required ? '<span class="required">*</span>' : ''}}{{=item.label}}</label>
+          <!--  Mobile native dropdown  -->
+          {{ if (window.isWebview()) { }}
+            <div class="form-dropdown">
+              <select aria-describedby="{{=idx}}_errors" value='{{=item.value}}' name="{{=idx}}" {{=item.required ? 'required' : ''}} data-export-field="{{=item.exportField}}">
+                {{ if(typeof item.label != 'undefined' && (m.fieldStyle == 'inline' || m.fieldStyle == 'line')){ }}
+                  <option value=""> - {{= (item.required) ? '<span class="required">*</span>'+item.label : item.label}} - </option>
+                {{ } else { }}
+                  <option value=""> - Select - </option>
+                {{ } }}
+                {{  _.each(item.options, function(opt){ }}
+                  {{ if (item.selectedOption === opt.name) { }}
+                    <option selected value="{{=htmlSafe(opt.name)}}"  data-price="{{=opt.price}}">
+                  {{ } else { }}
+                    <option value="{{=htmlSafe(opt.name)}}"  data-price="{{=opt.price}}">
+                  {{ } }}
+                  {{=opt.name}}
+                    {{ if (m.paymentRequired && opt.price){ }}
+                      ({{= view.optionCurrencyPriceString(opt.price) }})
+                    {{ } }}
+                  </option>
+                {{ }); }}
+                {{ if (item.hasOtherChoice){ }}
+                  <option {{=(item.selectedOption === item.otherChoiceName ? 'selected' : '')}} value="{{=htmlSafe(item.otherChoiceName)}}" class="otherChoice-js">
+                  {{=item.otherChoiceName}}
+                  </option>
+                {{ } }}
+              </select>
+              <div class="form-dropdown__icon">
+                <i class="fal fa-angle-down" aria-hidden="true"></i>
+              </div>
+            </div>
+          {{ } else { }}
+            <div class="form-dropdown" aria-describedby="{{=idx}}_errors" data-export-field="{{=item.exportField}}">
+              <div class="form-dropdown__current" tabindex="0">
+                <div class="form-dropdown__value">
+                  <input type="radio" class="form-dropdown__input" value="" id="{{=idx + '_0'}}" name="{{=idx}}" checked>
+                  <p class="form-dropdown__input-text">
+                    {{ if (!item.label) { item.label = '- Select -'} }}
+                    {{=m.fieldStyle !== 'block' ? (item.required ? '<span class="required">*</span>'+item.label : item.label) : '- Select -'}}
+                  </p>
+                </div>
+                {{  _.each(item.options, function(opt, index){ }}
+                <div class="form-dropdown__value">
+                  <input type="radio" class="form-dropdown__input" data-price="{{=opt.price}}" value="{{=htmlSafe(opt.name)}}" id="{{=idx + '_' + index +1}}" name="{{=idx}}" data-price="{{=opt.price}}">
+                  <p class="form-dropdown__input-text">
+                    {{=opt.name}}
+                    {{ if (m.paymentRequired && opt.price){ }}
+                    ({{= view.optionCurrencyPriceString(opt.price) }})
+                    {{ } }}
+                  </p>
+                </div>
+                {{ }) }}
+                {{ if (item.hasOtherChoice) { }}
+                  <div class="form-dropdown__value">
+                    <input type="radio" name="{{=idx}}" class="form-dropdown__input otherChoice-js" value="{{=htmlSafe(item.otherChoiceName)}}" id="{{=idx + '_otherChoice'}}">
+                    <p class="form-dropdown__input-text">
+                      {{=item.otherChoiceName}}
+                    </p>
+                  </div>
+                {{ } }}
+                <div class="form-dropdown__icon">
+                  <i class="fal fa-angle-down" aria-hidden="true"></i>
+                </div>
+              </div>
+              <ul class="form-dropdown__list">
+                {{ _.each(item.options, function(opt, index) { }}
+                <li>
+                  <label for="{{=idx + '_' + index +1}}" class="form-dropdown__option" aria-hidden="aria-hidden" data-price="{{=opt.price}}">
+                    {{=opt.name}}
+                    {{ if (m.paymentRequired && opt.price){ }}
+                    ({{= view.optionCurrencyPriceString(opt.price) }})
+                    {{ } }}
+                  </label>
+                </li>
+                {{ }) }}
+                {{ if (item.hasOtherChoice) { }}
+                  <li>
+                    <label for="{{=idx + '_otherChoice'}}" class="form-dropdown__option otherChoice-js" aria-hidden="aria-hidden">
+                      {{=item.otherChoiceName}}
+                    </label>
+                  </li>
+                {{ } }}
+              </ul>
+            </div>
+          {{ } }}
+          {{ if (item.hasOtherChoice) { }}
+            <div class="choice-option-other-choice__input">
+              <input class="otherChoiceValue-js form-control {{=item.selectedOption && item.selectedOption === item.otherChoiceName ? 'option__othertext--visible' : 'option__othertext--hidden'}}" value='{{=item.otherChoiceValue}}' name="{{=idx}}" type="text" placeholder="{{=item.otherChoiceName}}">
+            </div>
+          {{ } }}
+        </div>
+      </div>
+
+
+
+        {{ }else if(item.type == 'date') { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+            <div id="{{=idx}}" class="formElement form-group fadeMe datePickerParent">
+              <div class="{{=idx}}"></div>
+              <div powr-react="PowrDateTimePicker" powr-react-id="{{=idx}}" id-for-props="dateTime" aria-describedby="{{=idx}}_errors" data-qa="formElement-datePicker"></div>
+            </div>
+          </div>
+
+        {{ }else if(item.type == 'file' && !item.disabled) { }}
+          <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+        <div aria-describedby="{{=idx}}_errors" id='{{=idx}}' class="formElement form-group fadeMe fileUploadParent file-upload" data-qa="formElement-file">
+          <div class="{{=idx}}"></div>
+          <form class="fileUploadForm hid" enctype="multipart/form-data">
+            {{var docAccept = '.doc,.docx,.pdf,.txt,.xls,.xlsx,.rft,.pages,.csv,.log,.odt,.msg,.tex,.wpd,.wps,.ppt,.pptx,.xml,.rar,.zip,.3gp,.m4r,.vm';}}
+            {{var fileType = item.fileType == 'audio' ? 'audio/*' : item.fileType == 'image' ? 'image/*' : item.fileType == 'doc' ? docAccept : '';}}
+            <input accept="{{= fileType}}" class="fileUploadInput hide user-success" fileSize= "{{=item.uploadedFileSize}}" name="file[]" type="file" data-qa="input-uploadFile">
+          </form>
+          <div class="file-upload__label">{{=item.required ? '<span class="required">*</span>' + item.label : item.label}}</div>
+          <button type="button" class="uploadBtn width100" tabindex="0">
+            {{=item.buttonText || 'Browse file'}}
+            {{ if (item.uploadButtonIcon) { }}
+              <i class="{{=item.uploadButtonIcon !== 'none' ? item.uploadButtonIcon : ''}} uploadIcon"></i>
+            {{ } else { }}
+              <i class="fal fa-cloud-upload uploadIcon"></i>
+            {{ } }}
+            <i class="fal fa-spinner fa-spin uploadProgress hid"></i>
+            <i class="fal fa-check-circle uploadSuccessful hid"></i>
+            <i class="fal fa-times-circle hid uploadFail"></i>
+          </button>
+          <div class="file-upload__name hid" data-qa="uploadedfileName">
+            <span>File Uploaded: </span>
+            <strong class="fileInputName"></strong>
+            <i class="fal fa-trash-alt file-upload__trash js-file-upload__trash"></i>
+          </div>
+          <input class="fileURL {{=item.required ? 'hiddenRequired' : ''}}" data-form-type="file" name="{{=idx}}" type="hidden" value='{{=item.value}}' {{=item.required ? 'required' : ''}}>
+        </div>
+      </div>
+        {{ } else if (item.type === 'name' ) {  }}
+          {{ if (item.nameFields.split(',').includes('firstName')) { }}
+        {{ const firstNameDisplayLabel = `${item.firstNameRequired ? '<span class="required">*</span>': ''}${item.firstNameLabel}` }}
+        <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+          <div id='{{=idx}}-fname-el' class="formElement form-group fadeMe text" data-qa="formElement-fname">
+            <div class="{{=idx}}-fname-el"></div>
+            {{ if (m.fieldStyle !== 'inline') { }}
+              <label for="{{=item.idx}}-fname" class="fitText for-input">{{=firstNameDisplayLabel}}</label>
+            {{ } }}
+            <input data-type="firstname" data-primary="true" id="{{=item.idx}}-fname" class="form-control nameInputFieldEmail width100 {{=item.firstNameRequired ? 'required': ''}} " type='text' name="{{=item.idx}}-fname" placeholder="{{=item.firstNameRequired ? '*' : ''}}{{=htmlSafe(item.firstNameLabel)}}" {{=item.firstNameRequired ? 'required' : ''}}>
+          </div>
+        </div>
+      {{ } }}
+      {{ if (item.nameFields === 'firstName,lastName' && (!item.half || halfCount %2 === 1)) { }}
+      <div class="gap-element gap-element--small clearfix"></div>
+      {{ } }}
+      {{ if (item.nameFields.split(',').includes('lastName')) { }}
+        {{ const lastNameDisplayLabel = `${item.lastNameRequired ? '<span class="required">*</span>': ''}${item.lastNameLabel}` }}
+        <div class="{{= (item.half) ? 'col-xs-6 half' : 'col-sm-12 clearfix form__element--min-height-zero'}}">
+          <div id='{{=idx}}-lname-el' class="formElement form-group fadeMe text" data-qa="formElement-lname">
+            <div class="{{=idx}}-lname-el"></div>
+            {{ if (m.fieldStyle !== 'inline') { }}
+              <label for="{{=item.idx}}-lname" class="fitText for-input">{{=lastNameDisplayLabel}}</label>
+            {{ } }}
+            <input data-type="lastname" data-primary="true" id="{{=item.idx}}-lname" class="form-control nameInputFieldEmail width100 {{=item.lastNameRequired ? 'required': ''}} " type='text' name="{{=item.idx}}-lname" placeholder="{{=item.lastNameRequired ? '*' : ''}}{{=htmlSafe(item.lastNameLabel)}}" {{=item.lastNameRequired ? 'required' : ''}}>
+          </div>
+        </div>
+      {{ } }}
+        {{ }; }}
+    </script>
+    <script>
+      window.CONTENT = {
+        defaultDateFormat: "MM-DD-YYYY",
+        afterSubmission: "showForm",
+        submissionFrequency: "perPage",
+        redirectLink: "",
+        carrier: "",
+        carrierLabel: "",
+        phoneNumber: "",
+        phoneValid: false,
+        pattern: false,
+        printable: false,
+        stripeEnabled: true,
+        showStripe: false,
+        braintreeEnabled: false,
+        offlineEnabled: false,
+        noteToSeller: false,
+        sendCartAbandonmentEmailsTo: "",
+        confirmationRecipients: "all",
+        conditionalLogicEmails: [{}],
+        sendConfirmationEmailHack: false,
+        confirmationEmailFieldIdx: null,
+        patternType: "subtle_white_feathers",
+        removePowrLogo: false,
+        multistepForm: false,
+        title: "Напишіть нам",
+        powrMail: "zilla",
+        emails: {},
+        description: "",
+        data: [
+          {
+            type: "step",
+            idx: "c2bf2257_1716202240780",
+            altTag: "",
+            currentStep: true,
+          },
+          {
+            idx: "0s1vnkf3_1716200899776",
+            type: "text",
+            label: "Імʼя",
+            exportField: "",
+            required: false,
+            half: false,
+            showResponse: false,
+            conditionalElement: "",
+            conditionalValue: "",
+            options: [],
+            prices: [],
+            altTags: [],
+            paragraphHeight: "50px",
+            altTag: "",
+          },
+          {
+            idx: "7wsvytbe_1716200899777",
+            type: "email",
+            label: "Email",
+            required: false,
+            sendConfirmationEmail: false,
+            half: false,
+            subscribeToMailchimp: false,
+            conditionalElement: "",
+            conditionalValue: "",
+            options: [],
+            prices: [],
+            altTags: [],
+            paragraphHeight: "50px",
+            altTag: "",
+            optIn: false,
+            optInValue: false,
+            optInLabel:
+              "\u003cp\u003eYes, please opt me into all email marketing\u003c/p\u003e",
+            optInRequired: false,
+          },
+          {
+            type: "phone",
+            idx: "31644415_1716201078031",
+            label: "Телефон",
+            phoneCountry: { label: "Ukraine", value: "UA" },
+            acceptIntPhones: true,
+            addPhoneExt: false,
+            extPlaceholder: "ext",
+            optIn: false,
+            optInValue: false,
+            optInLabel:
+              "\u003cp\u003eYes, please opt me into all email marketing\u003c/p\u003e",
+            optInRequired: false,
+          },
+          {
+            idx: "a1l8rw0n_1716200899777",
+            type: "textarea",
+            label: "Повідомлення",
+            required: false,
+            half: false,
+            exportField: "",
+            limitingCharacters: false,
+            characterLimit: "250",
+            paragraphHeight: "68px",
+            conditionalElement: "",
+            conditionalValue: "",
+            options: [],
+            prices: [],
+            altTags: [],
+            altTag: "",
+          },
+        ],
+        mailchimpList: "",
+        mailchimpListName: "",
+        popupForm: false,
+        formTriggerElementType: "default",
+        formTriggerElementStyle: "floatingButton",
+        formTriggerTabLocation: "right",
+        formTriggerPositionOffset: "100%",
+        formTriggerIcon: "envelope-o",
+        formTriggerText: "Your Text Here",
+        fixedButtonColor: "rgb(255,255,255)",
+        fixedButtonBackgroundColor: "rgb(30,136,229)",
+        emailSubject: "",
+        emailBody: "",
+        emailName: "",
+        emailAddress: "",
+        customAdminEmails: false,
+        adminSubjectVariable: "",
+        adminEmailName: "",
+        adminSubjectMessage: "",
+        includeSkippedFields: false,
+        paymentRequired: false,
+        paypalEnabled: false,
+        paypalQuantity: 1,
+        quantityLabel: "Quantity",
+        paypalButtonText: "Buy Now",
+        showQuantityInput: false,
+        showPriceSummary: true,
+        paypalPaypalAccount: "",
+        paypalCurrencyCode: "USD",
+        paypalPurchaseType: "BuyNow",
+        paypalItemName: "Product",
+        paypalItemCost: 5,
+        paypalAllowUserToSpecifyPrice: false,
+        paypalAllowUserToSpecifyQuantity: false,
+        paypalTrialOn: false,
+        paypalTrialPrice: 0,
+        paypalTrialDuration: 30,
+        paypalTrialDurationUnits: "D",
+        paypalSubscriptionPrice: 0,
+        paypalSubscriptionDuration: 1,
+        paypalSubscriptionDurationUnits: "M",
+        paypalShippingCost: "",
+        paypalNoShipping: "0",
+        paypalTaxType: "rate",
+        paypalTaxRate: "0",
+        paypalTaxAmount: "0",
+        showGoogleSheetsAlert: true,
+        titleFontFamily: "Lora",
+        titleFontSize: "28px",
+        titleFontColor: "#2D2D2D",
+        titleFontStyle: "bold",
+        textFontFamily: "Lora",
+        textFontSize: "16px",
+        textFontColor: "#2D2D2D",
+        textFontStyle: "normal",
+        googleSheetsConnected: false,
+        buttonBackgroundColor: "rgba(46,125,50,1)",
+        buttonBackgroundGradient: false,
+        buttonBackgroundStartColor: "#3A86FF",
+        buttonBackgroundEndColor: "#1A4EA2",
+        buttonBackgroundGradientOrientation: "horizontal",
+        buttonText: "Відправити",
+        buttonColor: "#FFF",
+        buttonFontFamily: "Lora",
+        buttonFontStyle: "bold",
+        buttonFontColor: "#FFFFFF",
+        buttonFontSize: "16px",
+        buttonRadius: "4px",
+        nextButtonText: "Next",
+        nextButtonIcon: "none",
+        backButtonText: "Back",
+        backButtonIcon: "none",
+        buttonAlign: "centerBtn",
+        resubmitButtonText: "Submit again",
+        buttonAnimation: "none",
+        buttonType: "flat",
+        buttonShadowColor: "#0C4698",
+        buttonBorderWidth: "2px",
+        buttonBorderColor: "#0C4698",
+        buttonAlignFlex: {
+          leftBtn: "start",
+          centerBtn: "center",
+          rightBtn: "end",
+          fullBtn: "between",
+        },
+        buttonSize: "medium",
+        backgroundGradient: false,
+        backgroundColor: "#FFFFFF",
+        backgroundStartColor: "#d5d5d5",
+        backgroundEndColor: "#333",
+        backgroundBorderColor: "#E8E8E8",
+        backgroundBorderRadius: "20px",
+        backgroundBorderWidth: "0px",
+        backgroundShadow: "none",
+        inputBackgroundColor: "#F4F4F4",
+        inputBorderRadius: "6px",
+        inputFontColor: "#2D2D2D",
+        inputFontSize: "16px",
+        inputFontFamily: "Lora",
+        inputFontStyle: "normal",
+        fieldStyle: "line",
+        inputPaddingSize: "medium",
+        inputBorderColor: "#2D2D2D",
+        inputBorderWidth: "1px",
+        discountCodeText: "Discount Code",
+        discounts: [],
+        passwordProtectOn: false,
+        titleAlign: "center",
+        captchaRequired: false,
+        labelType: "",
+        version: 2,
+        headerImageMargin: "8px",
+        headerBackgroundImage: "",
+        formBuilderLayout: "noImageLayout",
+        headerImageWidth: "400px",
+        headerImageHeight: "220px",
+        pluginWidth: "530px",
+        pluginPadding: "16%",
+        verticalSpacing: "100%",
+        introAnimation: "none",
+        inputPlaceholderColor: "#888888",
+        customCSS: "",
+        customJS: "",
+        template: "form_template_custom",
+        appTheme: "defaultTheme",
+        limitingCharacters: false,
+        conditionalLogic: "",
+        showResponse: false,
+        view_form_responses: [],
+        paragraphHeight: "50px",
+        pauseDisplay: false,
+        successText:
+          '\u003cp\u003e\u003cspan style="font-family:Lora"\u003e\u003cspan style="font-size:20px;line-height:1.2"\u003eМи вже отримали Ваше повідомлення\u003c/span\u003e\u003c/span\u003e\u003c/p\u003e\u003cp\u003e\u003cspan style="font-family:Lora"\u003e\u003cspan style="font-size:20px;line-height:1.2"\u003eі обовʼязково із Вами звʼяжемось.\u003c/span\u003e\u003c/span\u003e\u003c/p\u003e',
+        afterSubmissionImageAlign: "center",
+        afterSubmissionImageSize: "20%",
+        trackUserId: false,
+        lockAppSaving: false,
+        submissions: {
+          limits: { active: false, total: 0, max: 10 },
+          deadline: {
+            active: false,
+            dateTime: "2020-02-28T21:39:51.754Z",
+            timezone: "",
+          },
+          limitReachedMessage:
+            '\\u003cp\\u003e\\u003cstrong\\u003e\\u003cspan style=\\"font-size:20px\\"\\u003eThe submission limit has been reached for this form.\\u003c/span\\u003e\\u003c/strong\\u003e\\u003c/p\\u003e',
+        },
+        integrations: { mailchimpData: {} },
+        displayProgress: true,
+        progressType: "percentage",
+        progressTypeText: {
+          percentage: "%",
+          questions: " questions",
+          pages: " pages",
+        },
+        fullWidthAlignApplied: false,
+        preventMultipleSubmissions: false,
+        descriptionFontSize: "16px",
+        paymentVersion: 2,
+        stripeSettings: { useAutomaticPayments: "automatic" },
+        openAiStyleToggle: false,
+        mobileBackgroundImagePosition: "hidden",
+        isImageHidden: false,
+        afterSubmissionImage:
+          "https://powr.s3-us-west-1.amazonaws.com/images/checkmark.png",
+        descriptionFontFamily:
+          "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+        descriptionFontColor: "#2D2D2D",
+        descriptionFontStyle: "normal",
+        title_description: true,
+        inputs: true,
+        button: true,
+        google_sheets: true,
+        dimensions: { height: 611, width: 530 },
+      };
+      window.BACKUP_CONTENT = null;
+      window.META = {
+        id: 38287681,
+        unique_label: "86e6da1c_1716200899",
+        true_id: 38287681,
+        app_type: "contactForm",
+        app_namespace: "formBuilder",
+        app_slug: "form-builder",
+        app_common_name: "Contact Form",
+        active: true,
+        saved: true,
+        soft_alias: false,
+        external_data: {},
+        premium_status: "free",
+        created_at: "2024-05-20T10:28:19.624Z",
+        external_id_type: "iframe",
+        planet_scale: "on",
+        ssr: false,
+        hashid: "NRRX8w",
+        powr_one: false,
+        powr_one_app_trial_ended_overlay: false,
+        env: "production",
+        dimensions: { height: 611, width: 530 },
+        form_view_upload_r2: true,
+        ip: "45.89.90.148",
+        r2: true,
+        form_limits: {
+          count: 5,
+          limit: 25,
+          premium_status: "free",
+          reached_at: null,
+          app_id: 38287681,
+          app_meta_data: {
+            submission_count_total: 16,
+            submission_limit_percent: 75,
+            submission_max: 25,
+          },
+        },
+        app_owner: {
+          id: 7072461,
+          email: "servdo@gmail.com",
+          created_at: "2024-05-20T10:33:00.301Z",
+          updated_at: "2024-05-20T10:33:03.273Z",
+          credits: 0,
+          email_subscription_active: true,
+          promo_type: null,
+          promo_end: null,
+          rid: null,
+          first_name: "Sergii",
+          last_name: "Vdovareize",
+          partner_name: null,
+          user_image_file_name: null,
+          user_image_content_type: null,
+          user_image_file_size: null,
+          user_image_updated_at: null,
+          provider: null,
+          uid: null,
+          oauth_token: null,
+          oauth_expires_at: null,
+          discount_email_subscription_active: true,
+          aid: null,
+          industry: null,
+          external_links: null,
+          phone: null,
+          address_1: null,
+          address_2: null,
+          city: null,
+          state: null,
+          country: null,
+          postal_code: null,
+          account_type: null,
+          onboarding_emails_active: true,
+          plugins_email_subscription_active: true,
+          temp: null,
+          active: true,
+          unique_id_old: null,
+          invoice_subscription_active: null,
+          platform: "iframe",
+          business_booster_emails_active: null,
+          blog_subscription_active: true,
+          status: "active",
+          latitude: 59.9005,
+          longitude: 10.6245,
+          linked_user_id: null,
+          src: null,
+          login_bypass_token:
+            "04bb4ee5069e16295003dd706f298834929dae283cd0b8c042cfdc08b126533f",
+          locale: "en-US",
+          timezone: null,
+          locked_email_sent_at: null,
+          reset_password_counter: null,
+          agency: null,
+          unique_id: "9a908c61_1716200898547",
+          thumb_url: "//www.powrcdn.com/common_images/avatar.png",
+          medium_url: "//www.powrcdn.com/common_images/avatar.png",
+          user_display_score: "normal",
+          user_has_promotional_discounts: false,
+          user_had_credits: false,
+          user_has_active_free_enterprise_trial: false,
+          last_sign_in_at: "2024-05-20T10:33:00.361Z",
+          "has_active_trial?": false,
+          opt_to_sms: null,
+          hide_phone_modal: null,
+          business_type: null,
+          company_size: null,
+          purpose: null,
+          "is_usage_based?": null,
+          is_powr_one: false,
+          is_template_creator: false,
+          user_has_active_pro_subscription: false,
+          user_has_active_monthly_pro_subscription: false,
+          user_has_active_yearly_pro_subscription: false,
+          "is_enterprise?": false,
+          "show_switch_to_yearly?": false,
+          enterprise_level: null,
+          "is_high_paying_usage_user?": null,
+        },
+        simple_copies: {
+          checkout: "Checkout",
+          payment: "Payment",
+          name: "Name",
+          next: "Next",
+          first_name: "First Name",
+          last_name: "Last Name",
+          email: "Email Address",
+          email_address: "Email Address",
+          address: "Address",
+          select_an_option: "Select an Option",
+          grand_total: "Total",
+          state_or_provence: "State",
+          submit_order: "Checkout",
+          allow_purchases_with_braintree: "Allow Braintree payments",
+          card_payment_processor: "Credit card payment processor",
+          price_per_item: "Price",
+          subtotal: "Subtotal",
+          donation_per_item: "Price",
+          zip_or_country: "Zip Code or Country",
+          note_to_seller: "Add Special Instructions",
+          city: "City",
+          back_to_store: "Back to Store",
+          offline_message: "Seller will send payment instructions",
+          tax: "Tax",
+          shipping: "Shipping",
+          discount: "Discount",
+          discount_code: "Discount Code",
+          apply: "Apply",
+        },
+      };
+      if (window.META != null) {
+        window.META.cached_view_blocked = { value: false };
+      }
+      window.GLOBALS = {
+        CURRENT_USER: {},
+        ENVIRONMENT: "production",
+        ROLLOUT_FEATURES: "null",
+      };
+      window.IS_EU = false;
+      window.IS_US = false;
+      window.IS_CA = false;
+      window.HOST =
+        window.location && window.location.hash.match(/#platform=wix-oauth/)
+          ? "wix-oauth"
+          : "powr";
+      window.PLATFORM_EMBED = "";
+      window.MAP_TILER_API_KEY = "3ajWcrACDgwhWWY476Tg";
+      window.INSTAGRAM_BASIC_DISPLAY_CLIENT = "2672150316139609";
+      window.FACEBOOK_API_VERSION = "v17.0";
+    </script>
+    <nav class="bottom-nav js-show-if-pos" style="display: none">
+      <div class="nav-logo nav-item">
+        <a class="nav-item margin-right-m">
+          <i class="icon-logo"></i>
+          <span class="type-logo">POWR</span>
+          <span class="editor-logo">Editor</span>
+        </a>
+      </div>
+      <div class="nav-cta flex-row align-items-center">
+        <a
+          class="margin-right-l"
+          href="https://www.powr.io/shopify/pos/form-builder?choose_default=true"
+        >
+          All Forms -&gt;
+        </a>
+      </div>
+    </nav>
+    <script>
+      window.APP_DETAILS = {
+        slug: "contact-form",
+        app_namespace: "formBuilder",
+      };
+    </script>
+    <script src="https://public.powrcdn.com/latest/assets/packs/apps-view-6863d8394ae9107c0f24-886ecb2.js"></script>
+    <script src="https://public.powrcdn.com/latest/assets/packs/apps/formBuilder-d40c09420f5d34ee5e4f-886ecb2.js"></script>
+    <!-- Code injected by live-server -->
+  </body>
+
+  <script>
+    window.onload = () => {
+      document.getElementById('form-submit-button-edit-on-click').addEventListener('click', () => {
+        // alert('2432')
+        // document.getElementById('appView').text = 'wefew'
+      })
+
+      
+    }
+  </script>
+  
+</html>
